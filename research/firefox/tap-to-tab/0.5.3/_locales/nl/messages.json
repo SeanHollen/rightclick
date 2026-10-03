@@ -1,0 +1,89 @@
+{
+  "extensionDescription": {
+    "message": "Dubbelklik (of tik tweemaal met de vinger) op een willekeurige koppeling om deze in een nieuw tabblad te openen. Ontworpen voor tablets en laptop-trackpads, die geen twee knoppen op hun muis hebben."
+  },
+
+  "open_focus": {
+    "message": "Voor of achter tonen"
+  },
+
+  "open_tab_front": {
+    "message": "Toon het nieuw geopende tabblad"
+  },
+
+  "open_tab_background": {
+    "message": "Open een nieuw tabblad op de achtergrond"
+  },
+
+  "open_where": {
+    "message": "Waar het te zetten"
+  },
+
+ "open_tab_next": {
+    "message": "Zet een nieuw tabblad naast het huidige tabblad"
+  },
+
+ "open_tab_end": {
+    "message": "Plaats aan het einde van de tabstrip"
+  },
+
+  "open_discard": {
+    "message": "Inhoud"
+  },
+
+  "open_tab_discard": {
+    "message": "Nieuwe tabinhoud later laden"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "Laad onmiddellijk nieuwe tabinhoud"
+  },
+
+  "tap_delay": {
+    "message": "Snelheid"
+  },
+
+  "tap_delay_ms": {
+    "message": "Muisklikvertraging (standaard: 300 milliseconden)"
+  },
+
+  "clickme": {
+    "message": "Muis klik hier"
+  },
+
+  "singleclick": {
+    "message": "Klik"
+  },
+
+  "dblclick": {
+    "message": "Dubbelklik"
+  },
+
+  "blacklist": {
+    "message": "Zwarte lijst domeinnamen (één per regel)"
+  },
+
+  "suggest_link": {
+    "message": "Feedback?"
+  },
+
+  "thankHeader": {
+    "message": "Bedankt voor het installeren van Tap To Tab!"
+  },
+
+  "thankBody": {
+    "message": "U dubbeltikken op elke link om deze in een nieuw tabblad te openen. Mocht u problemen ondervinden, neem dan gerust contact met ons op."
+  },
+
+  "thankFooter": {
+    "message": "Alle rechten voorbehouden."
+  },
+
+  "commentLink": {
+    "message": "Bekijk de Help-forums"
+  },
+
+  "videoLink": {
+    "message": "Bekijk een YouTube-video"
+  }
+}

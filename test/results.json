@@ -1,0 +1,691 @@
+{
+ "none (middle-click oracle)": {
+  "order": {
+   "sequential 3": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "rapid 5 (one action chain)": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html",
+    "t/4.html",
+    "t/5.html"
+   ],
+   "mixed with native middle-clicks": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "switch away & back": [
+    "index.html*",
+    "t/3.html",
+    "t/4.html",
+    "t/1.html",
+    "t/2.html"
+   ],
+   "close a child, open another": [
+    "index.html*",
+    "t/4.html",
+    "t/1.html",
+    "t/3.html"
+   ],
+   "unrelated tabs already to the right": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "about:robots",
+    "about:mozilla"
+   ],
+   "container tab": [
+    "index.html*[c1]",
+    "t/1.html[c1]"
+   ]
+  },
+  "edge": {}
+ },
+ "MINE": {
+  "order": {
+   "sequential 3": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "rapid 5 (one action chain)": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html",
+    "t/4.html",
+    "t/5.html"
+   ],
+   "mixed with native middle-clicks": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "switch away & back": [
+    "index.html*",
+    "t/3.html",
+    "t/4.html",
+    "t/1.html",
+    "t/2.html"
+   ],
+   "close a child, open another": [
+    "index.html*",
+    "t/4.html",
+    "t/1.html",
+    "t/3.html"
+   ],
+   "unrelated tabs already to the right": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "about:robots",
+    "about:mozilla"
+   ],
+   "container tab": [
+    "index.html*[c1]",
+    "t/1.html[c1]"
+   ]
+  },
+  "edge": {
+   "child span stops propagation": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/7.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "open shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/11.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "closed shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "SVG <a>": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/8.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "<area> image map": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/9.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link inside iframe": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/5.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link added after load": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/6.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "page has custom contextmenu": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/10.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "javascript: link (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "href=\"#\" (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "mailto: (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "right-drag 40px (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "shift+right-click (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   }
+  }
+ },
+ "bgdam Right Click Opens Link New Tab Correct Order 0.0.9": {
+  "order": {
+   "sequential 3": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "rapid 5 (one action chain)": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html",
+    "t/4.html",
+    "t/5.html"
+   ],
+   "mixed with native middle-clicks": [
+    "index.html*",
+    "t/2.html",
+    "t/1.html",
+    "t/3.html"
+   ],
+   "switch away & back": [
+    "index.html*",
+    "t/3.html",
+    "t/4.html",
+    "t/1.html",
+    "t/2.html"
+   ],
+   "close a child, open another": [
+    "index.html*",
+    "t/1.html",
+    "t/3.html",
+    "t/4.html"
+   ],
+   "unrelated tabs already to the right": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "about:robots",
+    "about:mozilla"
+   ],
+   "container tab": [
+    "index.html*[c1]",
+    "t/1.html[c1]"
+   ]
+  },
+  "edge": {
+   "child span stops propagation": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "open shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   },
+   "closed shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "SVG <a>": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "<area> image map": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link inside iframe": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/5.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link added after load": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/6.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "page has custom contextmenu": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/10.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 1
+   },
+   "javascript: link (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "href=\"#\" (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "index.html#"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "mailto: (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "mailto:x@example.com"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "right-drag 40px (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "shift+right-click (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   }
+  }
+ },
+ "hedworth Right Click Opens Link New Tab 0.0.7": {
+  "order": {
+   "sequential 3": [
+    "index.html*",
+    "t/3.html",
+    "t/2.html",
+    "t/1.html"
+   ],
+   "rapid 5 (one action chain)": [
+    "index.html*",
+    "t/5.html",
+    "t/4.html",
+    "t/3.html",
+    "t/2.html",
+    "t/1.html"
+   ],
+   "mixed with native middle-clicks": [
+    "index.html*",
+    "t/2.html",
+    "t/1.html",
+    "t/3.html"
+   ],
+   "switch away & back": [
+    "index.html*",
+    "t/4.html",
+    "t/3.html",
+    "t/2.html",
+    "t/1.html"
+   ],
+   "close a child, open another": [
+    "index.html*",
+    "t/4.html",
+    "t/3.html",
+    "t/1.html"
+   ],
+   "unrelated tabs already to the right": [
+    "index.html*",
+    "t/2.html",
+    "t/1.html",
+    "about:robots",
+    "about:mozilla"
+   ],
+   "container tab": [
+    "index.html*[c1]",
+    "t/1.html[c1]"
+   ]
+  },
+  "edge": {
+   "child span stops propagation": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "open shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   },
+   "closed shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "SVG <a>": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "<area> image map": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link inside iframe": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   },
+   "link added after load": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/6.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "page has custom contextmenu": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/10.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 1
+   },
+   "javascript: link (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "href=\"#\" (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "index.html#"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "mailto: (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "mailto:x@example.com"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "right-drag 40px (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "shift+right-click (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   }
+  }
+ },
+ "Right Links WE 0.5b12": {
+  "order": {
+   "sequential 3": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "rapid 5 (one action chain)": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html",
+    "t/4.html",
+    "t/5.html"
+   ],
+   "mixed with native middle-clicks": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "t/3.html"
+   ],
+   "switch away & back": [
+    "index.html*",
+    "t/3.html",
+    "t/4.html",
+    "t/1.html",
+    "t/2.html"
+   ],
+   "close a child, open another": [
+    "index.html*",
+    "t/4.html",
+    "t/1.html",
+    "t/3.html"
+   ],
+   "unrelated tabs already to the right": [
+    "index.html*",
+    "t/1.html",
+    "t/2.html",
+    "about:robots",
+    "about:mozilla"
+   ],
+   "container tab": [
+    "index.html*[c1]",
+    "t/1.html[c1]"
+   ]
+  },
+  "edge": {
+   "child span stops propagation": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/7.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "open shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/11.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "closed shadow root": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "SVG <a>": {
+    "ok": false,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "<area> image map": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/9.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link inside iframe": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/5.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "link added after load": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/6.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "page has custom contextmenu": {
+    "ok": false,
+    "tabs": [
+     "index.html*",
+     "t/10.html"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "javascript: link (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "href=\"#\" (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "index.html#"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "mailto: (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*",
+     "mailto:x@example.com"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "right-drag 40px (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "closed",
+    "page_menu": 0
+   },
+   "shift+right-click (should NOT open)": {
+    "ok": true,
+    "tabs": [
+     "index.html*"
+    ],
+    "native_menu": "open",
+    "page_menu": 0
+   }
+  }
+ }
+}

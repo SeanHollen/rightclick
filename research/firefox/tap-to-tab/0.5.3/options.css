@@ -1,0 +1,9 @@
+html, body, form, footer {margin:0; padding:0}
+form {margin:1em; line-height:2em}
+input[type=radio] {vertical-align:absmiddle; margin:0.5em}
+input[type=number] {margin-right: 0.5em}
+fieldset,footer {margin:1em}
+#clicktest {margin:1em 0; line-height: 2em; user-select: none}
+#clicktest span {padding: 0.5em; margin-right: 1em}
+#clickme {color: blue; background: #eee; cursor: pointer}
+textarea {width:100%; height:7em; line-height:1.5em; font:monospace}

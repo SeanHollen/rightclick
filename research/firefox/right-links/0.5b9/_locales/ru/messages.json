@@ -1,0 +1,77 @@
+{
+	"extensionName": {
+		"message": "Right Links WE"
+	},
+	"extensionDescription": {
+		"message": "Позволяет открывать ссылки в новых вкладках по клику правой кнопкой мыши (для тачпадов и т.п.)"
+	},
+	"buttonTooltip": {
+		"message": "Right Links WE: "
+	},
+	"tooltipEnabled": {
+		"message": "Включено"
+	},
+	"tooltipDisabled": {
+		"message": "Выключено"
+	},
+	"options": {
+		"message": "Настройки"
+	},
+	"updateNotice": {
+		"message": "<a href='https://github.com/Infocatcher/Right_Links_WE#issues'>Некоторые возможности</a> теперь невозможно реализовать из-за ограничений <a href='https://wiki.mozilla.org/WebExtensions'>WebExtensions</a>, для Firefox 56 и более старых, пожалуйста, используйте <a href='https://addons.thunderbird.net/seamonkey/addon/right-links/'>Right Links</a> (<a href='https://github.com/Infocatcher/Right_Links'>GitHub</a>)."
+	},
+	"enabled": {
+		"message": "Включено"
+	},
+	"keyboardShortcut": {
+		"message": "Сочетание клавиш:"
+	},
+	"longLeftClick": {
+		"message": "Долгий клик левой кнопкой мыши"
+	},
+	"loadInBackground": {
+		"message": "Открывать ссылки в фоне"
+	},
+	"loadIn": {
+		"message": "Открывать в"
+	},
+	"newTab": {
+		"message": "новой вкладке"
+	},
+	"newWindow": {
+		"message": "новом окне"
+	},
+	"currentTab": {
+		"message": "текущей вкладке"
+	},
+	"rightClick": {
+		"message": "Клик правой кнопкой мыши"
+	},
+	"enabledOnImages": {
+		"message": "Обрабатывать клики по изображениям"
+	},
+	"canvasImages": {
+		"message": "Canvas изображения"
+	},
+	"useBlob": {
+		"message": "Использовать blob:…"
+	},
+	"sizeLimit": {
+		"message": "Ограничение размеров (в пикселях):"
+	},
+	"contextMenuTimeout": {
+		"message": "Задержка перед контекстным меню (мс): "
+	},
+	"longLeftClickTimeout": {
+		"message": "Задержка перед долгим кликом левой кнопкой мыши (мс): "
+	},
+	"blacklist": {
+		"message": "Отключить на следующих сайтах:"
+	},
+	"mouseMoveTolerance": {
+		"message": "Чувствительность к перемещениям мыши (для жестов мышью, в пикселях): "
+	},
+	"debug": {
+		"message": "Отладочный режим"
+	}
+}

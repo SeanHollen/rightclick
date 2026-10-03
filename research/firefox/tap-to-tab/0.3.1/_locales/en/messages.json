@@ -1,0 +1,13 @@
+{
+  "extensionDescription": {
+    "message": "Double-click (double tap) on a link to open it in a new Tab. Designed for tablets and laptop trackpads."
+  },
+
+ "open_tab_front": {
+    "message": "Focus opened tab"
+  },
+
+  "open_tab_background": {
+    "message": "Open new tab in background"
+  }
+}

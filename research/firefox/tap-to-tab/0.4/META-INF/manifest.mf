@@ -1,0 +1,68 @@
+Manifest-Version: 1.0
+
+Name: background.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: sUDnT8nLG2/JeMQ/0qNc7g==
+SHA1-Digest: ZbvpdIAEqUrGC+1NJ4AluQ8xlh0=
+SHA256-Digest: M4EM3u8iy5J6BvSXPppTGCo0fk75inaGGQKgm9mWk8Y=
+
+Name: content.css
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: YwtscuMv9DrzKvQTHjBFAw==
+SHA1-Digest: PRgKAROnXlu9jhklZ3gfljQldMY=
+SHA256-Digest: uYSGiocHFpu5HhTzXpv5RgcKcXAX8vPW296DHkbSPFo=
+
+Name: content.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: Qa5ONY168JaVsM1n3TK8tA==
+SHA1-Digest: GouIXtURCfROrvxHPG+F4zTGHkY=
+SHA256-Digest: Ro3Fea4qpBotjv2FYkQ8AKY++F/PJ2czABtwjOvcm+0=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 938uqoS1x6dgQ8yElkkhVw==
+SHA1-Digest: 2Bg3NRYt3orxYbVaogfqhNzve9c=
+SHA256-Digest: eHrzuUsILnrqUrWfmgLl8p/fGzZzcyHx00bsIKn7ohQ=
+
+Name: openinnewtab_20.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: kR+iLR5VvTZAw6m7Nj85dA==
+SHA1-Digest: OWqVBe8zUvlKPrLTJ91m7Vin4ZU=
+SHA256-Digest: WgxnmIAOlsvynXrFEWsYqosz6DnwGfBr4q5jvhX+Bwo=
+
+Name: openinnewtab_48.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 9bjVe1hPLfA+tN2MuOP42A==
+SHA1-Digest: kTGPmfE2sudXsyoJMFd/wSZgNHI=
+SHA256-Digest: keFVwuVD6tMUYFwvt0uelHNClPCHW9pdn9fOrzjRjmg=
+
+Name: openinnewtab_96.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 8IamZtL/UEShiTg4kRVPmw==
+SHA1-Digest: 9ma/elc9nTq66hWVp45UP7+aEkA=
+SHA256-Digest: VZtXcHfs+TErmRcIADoo9RzB6w5r+QkqasCZrYCVXDU=
+
+Name: options.css
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: CEHHSatF/adEOn5HE/wt/w==
+SHA1-Digest: /d1K6bvhiAToSqJeFXGaXbUEWrY=
+SHA256-Digest: ZlrG+sNGW9fCuDCOo9ftHSfeSO0hoIdrMERESNF5dK8=
+
+Name: options.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: Mlq+UBhdioFPCjks1U4uTQ==
+SHA1-Digest: GrssftxWY8AvKF5KpVW/S0Zlkis=
+SHA256-Digest: XtMoNkEyfqQ9er+EI9zHc7ShL3SoyDVU2hhM5QPGHSA=
+
+Name: options.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: QEC7aWP/Qroe0URVD0U/xg==
+SHA1-Digest: kg7VL/yScKiOLm3RxtZGHNTqcS8=
+SHA256-Digest: zbBsCLqvdS6JIR13p+4dNv1VEL4CZB7w63+52jkXvtk=
+
+Name: _locales/en/messages.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: HjzdY5eYBLnK4D96/nywcA==
+SHA1-Digest: 2F8UQe5Ac8HfQTZgo4i/fhQG1Zg=
+SHA256-Digest: g6G8QrVbcXAXUWmNDWn3IpGXVXtXeupwkwqduSZjkvU=
+

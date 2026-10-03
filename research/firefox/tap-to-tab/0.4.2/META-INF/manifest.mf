@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+
+Name: background.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 6whNdP7w/9yqx72fti9b9CHE6dg=
+SHA256-Digest: WpmEllV8a2TksSWRTWohERv1rtUN2wdtvpGIu+X0TaE=
+
+Name: content.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PRgKAROnXlu9jhklZ3gfljQldMY=
+SHA256-Digest: uYSGiocHFpu5HhTzXpv5RgcKcXAX8vPW296DHkbSPFo=
+
+Name: content.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2FI3AqrSvdLTUCM6vTrPH1l5fc8=
+SHA256-Digest: Y0QbdPaeQvHoRfyArOPz1k6xFuuMMSvkGQlr2/aJZRQ=
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: bTgTnZBSSwR8nGRGtdIw1SFHN28=
+SHA256-Digest: ozDwB+i+13p11mi3DS505V2ih+dbBS4qvhXYhb1bNDo=
+
+Name: openinnewtab_20.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: OWqVBe8zUvlKPrLTJ91m7Vin4ZU=
+SHA256-Digest: WgxnmIAOlsvynXrFEWsYqosz6DnwGfBr4q5jvhX+Bwo=
+
+Name: openinnewtab_48.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: kTGPmfE2sudXsyoJMFd/wSZgNHI=
+SHA256-Digest: keFVwuVD6tMUYFwvt0uelHNClPCHW9pdn9fOrzjRjmg=
+
+Name: openinnewtab_96.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 9ma/elc9nTq66hWVp45UP7+aEkA=
+SHA256-Digest: VZtXcHfs+TErmRcIADoo9RzB6w5r+QkqasCZrYCVXDU=
+
+Name: options.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /d1K6bvhiAToSqJeFXGaXbUEWrY=
+SHA256-Digest: ZlrG+sNGW9fCuDCOo9ftHSfeSO0hoIdrMERESNF5dK8=
+
+Name: options.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 6Kj9K5Ke3SAzu+r9sDd0JnBLKVs=
+SHA256-Digest: Hp1jJj1cD3+LYDqnREhzXzuqc+VoshAL3qsLQwIO3dY=
+
+Name: options.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VLEzp8m5qehJFmcsM/im4hqufss=
+SHA256-Digest: bl+g0BrCFWnsNGrCl+jS7ZGBq5a2Tg/wA7OPBHq2sjQ=
+
+Name: _locales/en/messages.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2F8UQe5Ac8HfQTZgo4i/fhQG1Zg=
+SHA256-Digest: g6G8QrVbcXAXUWmNDWn3IpGXVXtXeupwkwqduSZjkvU=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2xYwmWhf+FEn+2+xuPM9OEXurZ4=
+SHA256-Digest: vTJSvlBrtD07/JvFEGpC+6OJ+8v1H1/5McGtG9YFU8M=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: +DmwpSAiSYx9kbrO5rzpUcA+/3o=
+SHA256-Digest: QngWmGrvbF26LTmZv9RwvaqoXZWez2XvqPq6PTfcUss=
+

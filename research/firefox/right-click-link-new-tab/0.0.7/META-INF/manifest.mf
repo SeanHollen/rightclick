@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 89MbxC4N6V9vw5nsXb4BYg==
+SHA1-Digest: xXWo2CpVMsJ7rOC6+PIWmP4LoAQ=
+
+Name: __MACOSX/icons/._.DS_Store
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8NnZBnS6tZCDeFM5dd9aAQ==
+SHA1-Digest: EQUMJ0XJnsjaz/FhwqCiL/rLi0c=
+
+Name: __MACOSX/icons/._128.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X6w+YBhrVWXOxjYaG4D23w==
+SHA1-Digest: JKXm11AcR1+++AKn1EK7vQg7LvQ=
+
+Name: __MACOSX/icons/._16.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Krl9n0mHi8OlhXfxk20mxQ==
+SHA1-Digest: xWh4E8LD8+v3MNYKQ89llsZIJAw=
+
+Name: __MACOSX/icons/._32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HG79UwVjovFSvxbXpz8YXw==
+SHA1-Digest: NU7+n2TWSEwqaP2rVJDWY6CM0KU=
+
+Name: __MACOSX/icons/._48.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: REbHegm/6L1XiYrm24ejSA==
+SHA1-Digest: O9MnDpSZEgxZbfoYcWrwRPpvyyY=
+
+Name: config/settings.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SP559cPRwhPq0MP1a5cZlg==
+SHA1-Digest: yWO4I3QGufrNK4RQ81LKM+FdkNM=
+
+Name: css/settings.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wEe1IE+/0SMEqee3wZKKeA==
+SHA1-Digest: Dgzmit/kg9knvJxo6lDHaHuNTYU=
+
+Name: icons/.DS_Store
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 33l6HqncYJ/cUc7D7FGYzQ==
+SHA1-Digest: xwOq8wjuP9xVHuExpvnkMpJkyGU=
+
+Name: icons/128.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: D2Krj7qcD0eSxnXAvLhkug==
+SHA1-Digest: rN57vnmS0JA6/ToTQGFNK44OpXw=
+
+Name: icons/16.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BvIexoFZu911BTXt6QKqWA==
+SHA1-Digest: 2oOY8zfacTaL2TRLY96H4qs6nok=
+
+Name: icons/32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xjWETgRo+CYWxEirq80LkQ==
+SHA1-Digest: IaB32t/ohrAaa4juO4TdIRwIoPg=
+
+Name: icons/48.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eeU2IqvCiKuYaMbFHNlksQ==
+SHA1-Digest: 6VMIJBHDel/vOAXLYUd6ZDAjZzo=
+
+Name: js/background.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yrWC2T2eHo2xrSfgZqUdLg==
+SHA1-Digest: mvJa/aAlX7T1xJfA1VdzHxX+/OQ=
+
+Name: js/content_script.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5ITox/81CaY+9KU0LOJToA==
+SHA1-Digest: oIP+6Ll74pEEbthauhuZUuzwjF0=
+
+Name: js/settings.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XZ871ok4k+NHTqxnqm1QKw==
+SHA1-Digest: Yw5loT+NdGkiMZ7VK4i5xbn1rQU=
+

@@ -1,0 +1,37 @@
+{
+  "extensionDescription": {
+    "message": "Dubbelklik (of tik tweemaal met de vinger) op een willekeurige koppeling om deze in een nieuw tabblad te openen. Ontworpen voor tablets en laptop-trackpads, die geen twee knoppen op hun muis hebben."
+  },
+
+  "open_focus": {
+    "message": "Voor of achter tonen"
+  },
+
+  "open_tab_front": {
+    "message": "Toon het nieuw geopende tabblad"
+  },
+
+  "open_tab_background": {
+    "message": "Open een nieuw tabblad op de achtergrond"
+  },
+
+  "open_where": {
+    "message": "Waar het te zetten"
+  },
+
+ "open_tab_next": {
+    "message": "Zet een nieuw tabblad naast het huidige tabblad"
+  },
+
+ "open_tab_end": {
+    "message": "Plaats aan het einde van de tabstrip"
+  },
+
+  "blacklist": {
+    "message": "Zwarte lijst domeinnamen (één per regel)"
+  },
+
+  "suggest_link": {
+    "message": "Feedback?"
+  }
+}

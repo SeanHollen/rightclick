@@ -1,0 +1,89 @@
+{
+  "extensionDescription": {
+    "message": "Double-click (double tap) on a link to open it in a new Tab. Designed for tablets and laptop trackpads."
+  },
+
+  "open_focus": {
+    "message": "Focus"
+  },
+
+  "open_tab_front": {
+    "message": "Focus opened tab"
+  },
+
+  "open_tab_background": {
+    "message": "Open new tab in background"
+  },
+
+  "open_where": {
+    "message": "Where"
+  },
+
+ "open_tab_next": {
+    "message": "Put new tab next to current tab"
+  },
+
+ "open_tab_end": {
+    "message": "Put new tab at the end"
+  },
+
+  "open_discard": {
+    "message": "Contents"
+  },
+
+  "open_tab_discard": {
+    "message": "Load new tab content later"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "Load new tab content immediately"
+  },
+
+  "tap_delay": {
+    "message": "Speed"
+  },
+
+  "tap_delay_ms": {
+    "message": "Click delay (default: 300 milliseconds)"
+  },
+
+  "clickme": {
+    "message": "Click here"
+  },
+
+  "singleclick": {
+    "message": "Single click"
+  },
+
+  "dblclick": {
+    "message": "Double click"
+  },
+
+  "blacklist": {
+    "message": "Blacklist domains (one per line)"
+  },
+
+  "suggest_link": {
+    "message": "Feedback?"
+  },
+
+  "thankHeader": {
+    "message": "Thank you for installing Tap To Tab!"
+  },
+
+  "thankBody": {
+    "message": "You can double tap on any link to open it in a new tab. If you encounter any problems, feel free to contact us."
+  },
+
+  "thankFooter": {
+    "message": "All Rights Reserved."
+  },
+
+  "commentLink": {
+    "message": "View the Support Forums"
+  },
+
+  "videoLink": {
+    "message": "View a YouTube Video"
+  }
+}

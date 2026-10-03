@@ -1,0 +1,29 @@
+{
+  "name": "Tap To Tab",
+  "version": "0.1",
+  "description": "Double click (double tap) on a link to open it in a new Tab. Designed for tablets and laptop trackpads, which don't have a right click mouse button.",
+  "manifest_version": 2,
+  "icons": {
+    "20": "/openinnewtab_20.png",
+    "48": "/openinnewtab_48.png",
+    "96": "/openinnewtab_96.png"
+  },
+
+  "permissions": [
+    "<all_urls>", "tabs"
+  ],
+  
+  "background": {
+    "scripts": ["/background.js"],
+    "persistent": true
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["/content.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}

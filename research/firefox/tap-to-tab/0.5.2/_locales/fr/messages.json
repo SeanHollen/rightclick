@@ -1,0 +1,69 @@
+{
+  "extensionDescription": {
+    "message": "Double-cliquez (ou appuyez deux fois avec le doigt) sur n'importe quel lien pour l'ouvrir dans un nouvel onglet. Conçu pour les tablettes et les trackpad pour ordinateur portable, qui n'ont pas deux boutons sur leur souris."
+  },
+
+  "open_focus": {
+    "message": "Montrer devant ou derrière"
+  },
+
+  "open_tab_front": {
+    "message": "Afficher l'onglet nouvellement ouvert"
+  },
+
+  "open_tab_background": {
+    "message": "Ouvrez un nouvel onglet en arrière-plan"
+  },
+
+  "open_where": {
+    "message": "Où le mettre"
+  },
+
+ "open_tab_next": {
+    "message": "Mettez un nouvel onglet à côté de l'onglet actuel"
+  },
+
+ "open_tab_end": {
+    "message": "Mettez à la fin de la bande de tabulation"
+  },
+
+  "open_discard": {
+    "message": "Contenu"
+  },
+
+  "open_tab_discard": {
+    "message": "Chargez le nouveau contenu de l’onglet plus tard"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "Chargez immédiatement le nouveau contenu de l’onglet"
+  },
+
+  "blacklist": {
+    "message": "Liste noire des noms de domaine (un par ligne)"
+  },
+
+  "suggest_link": {
+    "message": "Retour d'information?"
+  },
+
+  "thankHeader": {
+    "message": "Merci d’avoir installé Tap To Tab!"
+  },
+
+  "thankBody": {
+    "message": "Vous pouvez doubler le robinet sur n’importe quel lien pour l’ouvrir dans un nouvel onglet. Si vous rencontrez des problèmes, n’hésitez pas à nous contacter."
+  },
+
+  "thankFooter": {
+    "message": "Tous droits réservés."
+  },
+
+  "commentLink": {
+    "message": "Consultez les forums d’aide"
+  },
+
+  "videoLink": {
+    "message": "Visionner une vidéo YouTube"
+  }
+}

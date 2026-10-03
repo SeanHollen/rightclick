@@ -1,0 +1,89 @@
+{
+  "extensionDescription": {
+    "message": "リンクをダブルクリック（または指で2回タップ）して、新しいタブで開きます。マウスに2つのボタンがないタブレットとラップトップのトラックパッド用に設計されています。"
+  },
+
+  "open_focus": {
+    "message": "前面または背面に表示します"
+  },
+
+  "open_tab_front": {
+    "message": "新しく開いたタブを表示します"
+  },
+
+  "open_tab_background": {
+    "message": "バックグラウンドで新しいタブを開きます"
+  },
+
+  "open_where": {
+    "message": "どこに置くか"
+  },
+
+ "open_tab_next": {
+    "message": "現在のタブの横に新しいタブを配置します"
+  },
+
+ "open_tab_end": {
+    "message": "タブストリップの最後に置きます"
+  },
+
+  "open_discard": {
+    "message": "内容"
+  },
+
+  "open_tab_discard": {
+    "message": "新しいタブコンテンツを後で読み込みます"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "新しいタブコンテンツをすぐに読み込みます"
+  },
+
+  "tap_delay": {
+    "message": "速度"
+  },
+
+  "tap_delay_ms": {
+    "message": "マウスクリック遅延 (デフォルト: 300 ミリ秒)"
+  },
+
+  "clickme": {
+    "message": "ここをクリックしてください"
+  },
+
+  "singleclick": {
+    "message": "クリック"
+  },
+
+  "dblclick": {
+    "message": "ダブルクリック"
+  },
+
+  "blacklist": {
+    "message": "ブラックリストドメイン名（1行に1つ）"
+  },
+
+  "suggest_link": {
+    "message": "フィードバック？"
+  },
+
+  "thankHeader": {
+    "message": "Tap To Tab をインストールしていただきありがとうございます!"
+  },
+
+  "thankBody": {
+    "message": "任意のリンクをダブルタップすると、新しいタブで開くことができます。何か問題が発生した場合は、お気軽にお問い合わせください。"
+  },
+
+  "thankFooter": {
+    "message": "すべての権利予約。"
+  },
+
+  "commentLink": {
+    "message": "ヘルプ フォーラムを表示します"
+  },
+
+  "videoLink": {
+    "message": "YouTube 動画を表示する"
+  }
+}

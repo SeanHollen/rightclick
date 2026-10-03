@@ -1,0 +1,37 @@
+{
+  "extensionDescription": {
+    "message": "Double-click (double tap) on a link to open it in a new Tab. Designed for tablets and laptop trackpads."
+  },
+
+  "open_focus": {
+    "message": "Focus"
+  },
+
+  "open_tab_front": {
+    "message": "Focus opened tab"
+  },
+
+  "open_tab_background": {
+    "message": "Open new tab in background"
+  },
+
+  "open_where": {
+    "message": "Where"
+  },
+
+ "open_tab_next": {
+    "message": "Put new tab next to current tab"
+  },
+
+ "open_tab_end": {
+    "message": "Put new tab at the end"
+  },
+
+  "blacklist": {
+    "message": "Blacklist domains (one per line)"
+  },
+
+  "suggest_link": {
+    "message": "Feedback?"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Open in new tab",
+  "version": "0.3resigned1",
+  "manifest_version": 2,
+  "description": "A context menu to open things in a new tab  ",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "background.js"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{4a9cf29c-3661-4a7c-8df3-0e046c9660da}"
+    }
+  }
+}

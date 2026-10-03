@@ -1,0 +1,89 @@
+{
+  "extensionDescription": {
+    "message": "링크를 두 번 클릭 (또는 손가락으로 두 번)하여 새 탭으로 엽니 다. 마우스에 두 개의 버튼이없는 태블릿 및 노트북 트랙 패드 용으로 설계되었습니다."
+  },
+
+  "open_focus": {
+    "message": "앞뒤로 보여줍니다"
+  },
+
+  "open_tab_front": {
+    "message": "새로 열린 탭을 표시하십시오"
+  },
+
+  "open_tab_background": {
+    "message": "백그라운드에서 새 탭을 엽니 다"
+  },
+
+  "open_where": {
+    "message": "어디에 두어야합니까"
+  },
+
+ "open_tab_next": {
+    "message": "현재 탭 옆에 새 탭을 넣습니다"
+  },
+
+ "open_tab_end": {
+    "message": "탭 스트립 끝에 놓습니다"
+  },
+
+  "open_discard": {
+    "message": "내용을"
+  },
+
+  "open_tab_discard": {
+    "message": "나중에 새 탭 콘텐츠를 로드합니다"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "새 탭 콘텐츠를 즉시 로드합니다"
+  },
+
+  "tap_delay": {
+    "message": "속도"
+  },
+
+  "tap_delay_ms": {
+    "message": "마우스 클릭 지연(기본값: 300밀리초)"
+  },
+
+  "clickme": {
+    "message": "마우스 여기를 클릭하십시오"
+  },
+
+  "singleclick": {
+    "message": "클릭"
+  },
+
+  "dblclick": {
+    "message": "두 번 클릭"
+  },
+
+  "blacklist": {
+    "message": "블랙리스트 도메인 이름 (한 줄에 하나씩)"
+  },
+
+  "suggest_link": {
+    "message": "피드백?"
+  },
+
+  "thankHeader": {
+    "message": "Tap To Tab 을 설치해 주셔서 감사합니다!"
+  },
+
+  "thankBody": {
+    "message": "링크를 두 번 탭하여 새 탭에서 열 수 있습니다. 당신은 어떤 문제가 발생하면, 저희에게 연락 주시기 바랍니다."
+  },
+
+  "thankFooter": {
+    "message": "판권."
+  },
+
+  "commentLink": {
+    "message": "도움말 포럼을 봅니다"
+  },
+
+  "videoLink": {
+    "message": "YouTube 동영상을 보냅니다"
+  }
+}

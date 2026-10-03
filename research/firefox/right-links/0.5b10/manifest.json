@@ -1,0 +1,52 @@
+{
+	"manifest_version": 2,
+	"version": "0.5b10",
+	"name": "__MSG_extensionName__",
+	"description": "__MSG_extensionDescription__",
+	"author": "Infocatcher",
+	"default_locale": "en",
+	"applications": {
+		"gecko": {
+			"id": "{B5F5E8D3-AE31-49A1-AC42-78B7B1CC5CDC}"
+		}
+	},
+
+	"background": {
+		"scripts": ["global.js", "background.js"]
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["global.js", "content.js"],
+		"run_at": "document_start",
+		"all_frames": true
+	}],
+	"permissions": [
+		"<all_urls>",
+		"activeTab",
+		"tabs",
+		"contextMenus",
+		"storage",
+		"notifications"
+	],
+	"options_ui": {
+		"page": "options.html",
+		"browser_style": true
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_title": "__MSG_extensionName__",
+		"default_icon": {
+			"16": "icon16.png",
+			"24": "icon24.png"
+		}
+	},
+	"commands": {
+		"_execute_browser_action": {
+			"description": "__MSG_extensionName__"
+		}
+	},
+	"icons": {
+		"16": "icon16.png",
+		"24": "icon24.png"
+	}
+}

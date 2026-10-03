@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open link in new tab — Settings</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+<main class="page">
+  <header class="brand">
+    <img class="brand-logo" src="icons/icon-48.png" alt="">
+    <div><h1>Open link in new tab</h1><div class="subtitle">Settings are saved automatically on this browser.</div></div>
+  </header>
+
+  <h2 class="section-title">Behavior</h2>
+  <section class="card">
+    <div class="row"><div><div class="label">Extension enabled</div><div class="hint">The default is on, including after a browser restart.</div></div><label class="switch"><input id="enabled" type="checkbox"><span class="slider"></span></label></div>
+    <div class="row"><div><div class="label">Open in background</div><div class="hint">Do not switch to each newly opened tab.</div></div><label class="switch"><input id="openInBackground" type="checkbox"><span class="slider"></span></label></div>
+    <div class="row"><div><div class="label">Tab position</div><div class="hint">Place the tab beside the source or at the end.</div></div><select id="position"><option value="adjacent">Next to current</option><option value="end">At the end</option></select></div>
+    <div class="row"><div><div class="label">Link scope</div><div class="hint">External means links to a different origin only.</div></div><select id="scope"><option value="all">All links</option><option value="external">External only</option></select></div>
+  </section>
+
+  <h2 class="section-title">Exceptions</h2>
+  <section class="card">
+    <div class="row"><div><div class="label">Leave same-page links alone</div><div class="hint">Do not open section anchors such as #comments.</div></div><label class="switch"><input id="ignoreHashLinks" type="checkbox"><span class="slider"></span></label></div>
+    <div class="row"><div><div class="label">Leave downloads alone</div><div class="hint">Links marked as downloads keep normal behavior.</div></div><label class="switch"><input id="ignoreDownloads" type="checkbox"><span class="slider"></span></label></div>
+    <div class="row"><div><div class="label">Respect modified clicks</div><div class="hint">Ctrl/Cmd, Shift, and Alt clicks keep Chrome's native behavior.</div></div><label class="switch"><input id="respectModifiedClicks" type="checkbox"><span class="slider"></span></label></div>
+  </section>
+
+  <h2 class="section-title">Per-site rules</h2>
+  <section class="card">
+    <div class="hint">Exact domains and wildcards such as <strong>*.example.com</strong> are supported. Exact rules take priority.</div>
+    <table class="rules"><thead><tr><th>Domain</th><th>Behavior</th><th></th></tr></thead><tbody id="rules-body"></tbody></table>
+    <form class="add-rule" id="add-rule"><input class="text-input" id="rule-pattern" placeholder="example.com or *.example.com" aria-label="Domain"><select id="rule-value"><option value="off">Always off</option><option value="on">Always on</option></select><button class="primary" type="submit">Add</button></form>
+    <div class="error" id="rule-error" role="alert"></div>
+  </section>
+
+  <div class="notice warning"><strong>Known browser limits:</strong> extensions cannot intercept clicks on Chrome internal pages, the Chrome Web Store, browser UI, or bookmarks. Script-only controls without a real URL may also be unavailable. The extension does not claim otherwise.</div>
+  <div class="actions"><button class="secondary" id="export" type="button">Export settings</button><button class="secondary" id="import" type="button">Import settings</button><button class="secondary" id="reset" type="button">Reset defaults</button><input id="import-file" type="file" accept="application/json" hidden></div>
+</main>
+<script src="rules.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

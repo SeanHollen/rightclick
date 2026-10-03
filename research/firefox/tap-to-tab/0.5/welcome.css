@@ -1,0 +1,18 @@
+html, body, ul, li {margin: 0; padding: 0}
+html, body {height: 100%}
+body {display: flex; flex-flow: column; font: normal 12pt/2em Arial; background: #fff; color: #000}
+header {margin: 5% 5% 0 5%}
+section {flex: 1; padding: 1em 5%}
+img {border: 0; float: left; margin-right: 1em}
+h1 {line-height: 48px; margin: 0}
+ul, li {list-style: none}
+ul {margin: 1em 0}
+a {color: #00f}
+header, footer {flex: 0 1}
+footer {font-size: 9pt; color: #aaa; border-top: 1px solid #ddd; text-align: center; margin: 0 5% 2% 5%}
+
+@media (prefers-color-scheme: dark) {
+  body {background: #000; color: #fff}
+  a {color: #88f}
+  footer {color: #666; border-color: #555}
+}

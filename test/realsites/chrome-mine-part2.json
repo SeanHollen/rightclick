@@ -1,0 +1,353 @@
+[
+ {
+  "site": "https://www.reddit.com/r/firefox/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Reddit - Prove your humanity",
+    "landed": "https://www.reddit.com/r/firefox/",
+    "total": 6,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.reddit.com/",
+      "x": 39,
+      "y": 27.5,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.redditinc.com/",
+      "x": 39,
+      "y": 868,
+      "text": "Reddit, Inc. © \"2026\". All rights reserved.",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.redditinc.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/help/privacypolicy",
+      "x": 1060.296875,
+      "y": 868,
+      "text": "Privacy Policy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/help/privacypolicy"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/help/contentpolicy",
+      "x": 1160.03125,
+      "y": 868,
+      "text": "Content Policy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/help/contentpolicy"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": "site timed out after 150s",
+  "consent": null
+ },
+ {
+  "site": "https://old.reddit.com/r/firefox/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Welcome to Reddit",
+    "landed": "https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Ffirefox%2F",
+    "total": 7,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.reddit.com/login/",
+      "x": 481,
+      "y": 332,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/login/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/password/",
+      "x": 481,
+      "y": 665,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/password/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/",
+      "x": 630.515625,
+      "y": 229,
+      "text": "reddit.com",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.redditinc.com/policies/privacy-policy",
+      "x": 738.3125,
+      "y": 285,
+      "text": "Privacy Policy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.redditinc.com/policies/privacy-policy"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Welcome to Reddit",
+    "landed": "https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Ffirefox%2F",
+    "total": 7,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.reddit.com/login/",
+      "x": 481,
+      "y": 332,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/login/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/password/",
+      "x": 481,
+      "y": 665,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/password/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.reddit.com/",
+      "x": 630.515625,
+      "y": 229,
+      "text": "reddit.com",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.reddit.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.redditinc.com/policies/privacy-policy",
+      "x": 738.3125,
+      "y": 285,
+      "text": "Privacy Policy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.redditinc.com/policies/privacy-policy"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.youtube.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "YouTube",
+    "landed": "https://www.youtube.com/",
+    "total": 6,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.youtube.com/",
+      "x": 81,
+      "y": 28,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620",
+      "x": 1184.375,
+      "y": 28,
+      "text": "Sign in",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.youtube.com/shorts/",
+      "x": 29,
+      "y": 174,
+      "text": "Shorts Shorts",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/shorts/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.youtube.com/feed/subscriptions",
+      "x": 29,
+      "y": 250,
+      "text": "Subscriptions Subscriptions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/feed/subscriptions"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "YouTube",
+    "landed": "https://www.youtube.com/",
+    "total": 6,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.youtube.com/",
+      "x": 81,
+      "y": 28,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620",
+      "x": 1184.375,
+      "y": 28,
+      "text": "Sign in",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.youtube.com/shorts/",
+      "x": 29,
+      "y": 174,
+      "text": "Shorts Shorts",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/shorts/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.youtube.com/feed/subscriptions",
+      "x": 29,
+      "y": 250,
+      "text": "Subscriptions Subscriptions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.youtube.com/feed/subscriptions"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ }
+]

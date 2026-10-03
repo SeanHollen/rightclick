@@ -1,0 +1,12 @@
+.taptotab-visited {
+  animation:bang 1.3s ease-in
+}
+.taptotab-visited2 {
+  animation:bong 1.3s ease-in
+}
+@keyframes bang {
+  from {opacity:0}
+}
+@keyframes bong {
+  from {opacity:0}
+}

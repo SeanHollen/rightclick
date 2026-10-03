@@ -1,0 +1,89 @@
+{
+  "extensionDescription": {
+    "message": "在任何鏈接上雙擊（或用手指點擊兩次）以將其打開到新標籤頁中。專為平板電腦和筆記本電腦觸控板而設計，它們的鼠標上沒有兩個按鈕。"
+  },
+
+  "open_focus": {
+    "message": "顯示在前面或後面"
+  },
+
+  "open_tab_front": {
+    "message": "顯示新打開的標籤"
+  },
+
+  "open_tab_background": {
+    "message": "在後台打開新標籤頁"
+  },
+
+  "open_where": {
+    "message": "放在哪裡"
+  },
+
+ "open_tab_next": {
+    "message": "將新標籤放在當前標籤旁邊"
+  },
+
+ "open_tab_end": {
+    "message": "放在標籤條的末端"
+  },
+
+  "open_discard": {
+    "message": "內容"
+  },
+
+  "open_tab_discard": {
+    "message": "稍後載入新選項卡內容"
+  },
+
+  "open_tab_notdiscard": {
+    "message": "立即載入新選項卡內容"
+  },
+
+  "tap_delay": {
+    "message": "速度"
+  },
+
+  "tap_delay_ms": {
+    "message": "滑鼠點擊延遲 (預設值: 300 毫秒)"
+  },
+
+  "clickme": {
+    "message": "滑鼠點擊這裡"
+  },
+
+  "singleclick": {
+    "message": "點擊"
+  },
+
+  "dblclick": {
+    "message": "按兩下"
+  },
+
+  "blacklist": {
+    "message": "黑名單域名（每行一個）"
+  },
+
+  "suggest_link": {
+    "message": "反饋？"
+  },
+
+  "thankHeader": {
+    "message": "感謝您安裝 Tap To Tab！"
+  },
+
+  "thankBody": {
+    "message": "您可以雙擊任何連結以在新選項卡中打開它。如果您遇到任何問題,請隨時與我們聯繫。"
+  },
+
+  "thankFooter": {
+    "message": "保留所有權利。"
+  },
+
+  "commentLink": {
+    "message": "查看説明論壇"
+  },
+
+  "videoLink": {
+    "message": "查看 YouTube 影片"
+  }
+}

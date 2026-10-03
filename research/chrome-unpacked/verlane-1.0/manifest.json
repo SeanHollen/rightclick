@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Open Link on Right Click",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

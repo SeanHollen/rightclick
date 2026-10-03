@@ -1,0 +1,37 @@
+{
+  "extensionDescription": {
+    "message": "Doppelklicken Sie auf einen Link (oder tippen Sie zweimal mit dem Finger), um ihn in einem neuen Tab zu öffnen. Entwickelt für Tablets und Laptop-Trackpads, die keine zwei Tasten auf der Maus haben."
+  },
+
+  "open_focus": {
+    "message": "Vorne oder hinten zeigen"
+  },
+
+  "open_tab_front": {
+    "message": "Zeigen Sie die neu geöffnete Registerkarte an"
+  },
+
+  "open_tab_background": {
+    "message": "Öffnen Sie die neue Registerkarte im Hintergrund"
+  },
+
+  "open_where": {
+    "message": "Wo soll ich es hinstellen"
+  },
+
+ "open_tab_next": {
+    "message": "Setzen Sie eine neue Registerkarte neben die aktuelle Registerkarte"
+  },
+
+ "open_tab_end": {
+    "message": "Am Ende des Laschenstreifens platzieren"
+  },
+
+  "blacklist": {
+    "message": "Blacklist-Domainnamen (einer pro Zeile)"
+  },
+
+  "suggest_link": {
+    "message": "Feedback?"
+  }
+}

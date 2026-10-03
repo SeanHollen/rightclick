@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open link in new tab</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body class="popup">
+  <header class="brand">
+    <img class="brand-logo" src="icons/icon-48.png" alt="">
+    <div><h1>Open link in new tab</h1><div class="subtitle">Simple by default. Precise when needed.</div></div>
+  </header>
+
+  <section class="card">
+    <div class="row">
+      <div><div class="label">Extension enabled</div><div class="hint">Shortcut: Alt + Shift + O</div></div>
+      <label class="switch"><input id="enabled" type="checkbox"><span class="slider"></span></label>
+    </div>
+  </section>
+
+  <section class="card" id="site-card">
+    <div class="row">
+      <div><div class="label">This site</div><div class="site-name" id="site-name">Loading…</div></div>
+      <select id="site-rule" aria-label="Rule for this site">
+        <option value="inherit">Use global</option>
+        <option value="on">Always on</option>
+        <option value="off">Always off</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="row">
+      <div><div class="label">Open in background</div><div class="hint">Keep reading the current page</div></div>
+      <label class="switch"><input id="openInBackground" type="checkbox"><span class="slider"></span></label>
+    </div>
+    <div class="row">
+      <div><div class="label">Links</div><div class="hint">Choose which links are changed</div></div>
+      <select id="scope"><option value="all">All links</option><option value="external">External only</option></select>
+    </div>
+  </section>
+
+  <div class="notice" id="notice">Normal links are handled. Browser pages, the Chrome Web Store, bookmarks, and links hidden by a site cannot be intercepted.</div>
+  <footer class="footer"><button class="link-button" id="options">All settings</button><span class="saved" id="saved">Saved</span></footer>
+  <script src="rules.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

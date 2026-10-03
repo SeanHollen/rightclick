@@ -1,0 +1,562 @@
+{
+ "order": {
+  "sequential": "index.html* t/1.html t/2.html t/3.html",
+  "rapid": "index.html* t/1.html t/2.html t/3.html t/4.html t/5.html",
+  "mixed_with_middle_clicks": "index.html* t/1.html t/2.html t/3.html t/4.html",
+  "switch_away_and_back": "index.html* t/1.html t/2.html t/3.html t/4.html",
+  "close_child_then_open": "index.html* t/1.html t/3.html t/4.html",
+  "unrelated_tabs_to_right": "index.html* t/1.html t/2.html about:blank#r1 about:blank#r2",
+  "source_pinned": "index.html*[pin] t/1.html t/2.html about:blank#r1",
+  "source_in_tab_group": "index.html*[g] t/1.html t/2.html about:blank#r1",
+  "source_tab_moved": "t/1.html about:blank#r1 about:blank#r2 index.html* t/2.html",
+  "source_navigated_then_open": "index.html?again* t/1.html t/2.html t/3.html",
+  "child_moved_away_then_open": "index.html* t/2.html about:blank#r1 t/1.html t/3.html",
+  "unrelated_moved_between_children": "index.html* t/1.html about:blank#r1 t/2.html t/3.html",
+  "other_window_focused": "index.html* t/1.html || about:blank#w2*"
+ },
+ "edge": {
+  "plain link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/0.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "relative href + <base>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/1.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "href with surrounding whitespace": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/2.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "target=_blank rel=noopener": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/3.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "link wrapping an <img>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/4.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "icon link: <svg><use> inside <a>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/5.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "stretched-link card (::after overlay)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/6.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "link inside a modal <dialog>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/7.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "XHTML document (application/xhtml+xml)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/8.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "child element stops propagation of every mouse/pointer event": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/9.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "page's window-level capture listener swallows mouse events (drag library)": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/10.html*"
+   ],
+   "menu": "closed"
+  },
+  "carousel: preventDefault() on pointerdown (kills mousedown/mouseup)": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/11.html*"
+   ],
+   "menu": "closed"
+  },
+  "slider: pointerdown preventDefault + setPointerCapture": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/12.html*"
+   ],
+   "menu": "open"
+  },
+  "link re-rendered on mousedown (React-style state change)": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/13.html*"
+   ],
+   "menu": "closed"
+  },
+  "href rewritten on mousedown (search-result tracking)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/14.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "anti-right-click site (contextmenu blocked by page)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/15.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "site shows its own custom context menu": {
+   "ok": false,
+   "why": "site's own menu shown",
+   "tabs": [
+    "case/16.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "link added 300ms after load (SPA / infinite scroll)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/17.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "root element replaced after load": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/18.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "document.open()/write() after load": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/19.html*"
+   ],
+   "menu": "unknown"
+  },
+  "page still loading (slow third-party script)": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/20.html*"
+   ],
+   "menu": "open"
+  },
+  "open shadow root": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/21.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "closed shadow root": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/22.html*"
+   ],
+   "menu": "open"
+  },
+  "web component: slotted text inside shadow <a> (open)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/23.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "web component: slotted text inside shadow <a> (closed)": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/24.html*"
+   ],
+   "menu": "open"
+  },
+  "shadow root nested in shadow root": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/25.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "SVG <a href>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/26.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "SVG <a xlink:href>": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/27.html*"
+   ],
+   "menu": "open"
+  },
+  "<area> in an image map": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/28.html*"
+   ],
+   "menu": "open"
+  },
+  "nested links (inner one wins)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/29.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "same-origin iframe": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/30.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "cross-origin iframe": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/31.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "srcdoc iframe": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/32.html*"
+   ],
+   "menu": "open"
+  },
+  "about:blank iframe filled by script": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/33.html*"
+   ],
+   "menu": "unknown"
+  },
+  "sandboxed iframe": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/34.html*",
+    "t/1.html"
+   ],
+   "menu": "unknown"
+  },
+  "srcdoc iframe nested in an iframe": {
+   "ok": false,
+   "why": "no tab opened; native menu shown",
+   "tabs": [
+    "case/35.html*"
+   ],
+   "menu": "open"
+  },
+  "held for 700ms before release": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/36.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "3px hand jitter during click": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/37.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "javascript: link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/38.html*"
+   ],
+   "menu": "open"
+  },
+  "href=\"#\"": {
+   "ok": false,
+   "why": "opened case/39.html#; normal menu suppressed",
+   "tabs": [
+    "case/39.html*",
+    "case/39.html#"
+   ],
+   "menu": "closed"
+  },
+  "data: link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/40.html*"
+   ],
+   "menu": "open"
+  },
+  "<a> without href (JS pseudo-link)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/41.html*"
+   ],
+   "menu": "open"
+  },
+  "image that is not a link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/42.html*"
+   ],
+   "menu": "open"
+  },
+  "canvas that is not a link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/43.html*"
+   ],
+   "menu": "open"
+  },
+  "plain text": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/44.html*"
+   ],
+   "menu": "open"
+  },
+  "link inside a rich-text editor (contenteditable)": {
+   "ok": false,
+   "why": "opened t/1.html; normal menu suppressed",
+   "tabs": [
+    "case/45.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "shift+right-click": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/46.html*"
+   ],
+   "menu": "open"
+  },
+  "right-drag 40px left (cancel)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/47.html*"
+   ],
+   "menu": "closed"
+  },
+  "right-drag 40px up (cancel)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/48.html*"
+   ],
+   "menu": "closed"
+  },
+  "right-drag 30px left, staying on a wide link (cancel)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/49.html*"
+   ],
+   "menu": "closed"
+  },
+  "right-drag 30px up, staying on a tall link (cancel)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/50.html*"
+   ],
+   "menu": "closed"
+  },
+  "right-drag 40px right (cancel)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/51.html*"
+   ],
+   "menu": "closed"
+  },
+  "custom element with its own right-click menu (file-manager row)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/52.html*"
+   ],
+   "menu": "closed"
+  },
+  "div role=\"link\" with its own right-click menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/53.html*"
+   ],
+   "menu": "closed"
+  },
+  "<button> with its own right-click menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/54.html*"
+   ],
+   "menu": "closed"
+  },
+  "canvas game using right mouse button": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/55.html*"
+   ],
+   "menu": "closed"
+  },
+  "image editor: image with its own right-click menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/56.html*"
+   ],
+   "menu": "closed"
+  },
+  "<a href=\"#\"> used as a button, with its own menu": {
+   "ok": false,
+   "why": "opened case/57.html#",
+   "tabs": [
+    "case/57.html*",
+    "case/57.html#"
+   ],
+   "menu": "closed"
+  },
+  "<a href=javascript:> with its own menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/58.html*"
+   ],
+   "menu": "closed"
+  },
+  "<a> without href inside an app, with its own menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/59.html*"
+   ],
+   "menu": "closed"
+  },
+  "custom element with an href attribute (not a link) and its own menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/60.html*"
+   ],
+   "menu": "closed"
+  },
+  "SVG icon <use xlink:href> (not a link) with its own menu": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/61.html*"
+   ],
+   "menu": "closed"
+  },
+  "rich-text editor: link inside contenteditable with editor menu": {
+   "ok": false,
+   "why": "opened t/1.html",
+   "tabs": [
+    "case/62.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "page right-button handlers on a real link still receive mousedown/mouseup": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/63.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  }
+ },
+ "perf_ms": 1208.8000000715256
+}

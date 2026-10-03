@@ -1,0 +1,19 @@
+{
+ "order": {
+  "sequential": "index.html* t/1.html t/2.html t/3.html",
+  "rapid": "index.html* t/1.html t/2.html t/3.html t/4.html t/5.html",
+  "mixed_with_middle_clicks": "index.html* t/1.html t/2.html t/3.html t/4.html",
+  "switch_away_and_back": "index.html* t/1.html t/2.html t/3.html t/4.html",
+  "close_child_then_open": "index.html* t/1.html t/3.html t/4.html",
+  "unrelated_tabs_to_right": "index.html* t/1.html t/2.html about:blank#r1 about:blank#r2",
+  "source_pinned": "index.html*[pin] t/1.html t/2.html about:blank#r1",
+  "source_in_tab_group": "index.html*[g] t/1.html[g] t/2.html[g] about:blank#r1",
+  "source_tab_moved": "t/1.html about:blank#r1 about:blank#r2 index.html* t/2.html",
+  "source_navigated_then_open": "index.html?again* t/1.html t/2.html t/3.html",
+  "child_moved_away_then_open": "index.html* t/2.html t/3.html about:blank#r1 t/1.html",
+  "unrelated_moved_between_children": "index.html* t/1.html t/3.html about:blank#r1 t/2.html",
+  "other_window_focused": "index.html* t/1.html || about:blank#w2*"
+ },
+ "edge": {},
+ "perf_ms": 1212.3999999761581
+}

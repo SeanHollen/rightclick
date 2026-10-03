@@ -1,0 +1,1442 @@
+[
+ {
+  "site": "https://en.wikipedia.org/wiki/Firefox",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Firefox - Wikipedia",
+    "landed": "https://en.wikipedia.org/wiki/Firefox",
+    "total": 42,
+    "covered": 3,
+    "pseudo": 1,
+    "clicks": [
+     {
+      "href": "https://en.wikipedia.org/wiki/Main_Page",
+      "x": 109,
+      "y": 33,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Main_Page"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Firefox_(disambiguation)",
+      "x": 724.859375,
+      "y": 368.890625,
+      "text": "Firefox (disambiguation)",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Firefox_(disambiguation)"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Mobile_web",
+      "x": 579.2421875,
+      "y": 610.890625,
+      "text": "mobile",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Mobile_web"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Netscape_Navigator",
+      "x": 538.875,
+      "y": 730.890625,
+      "text": "Netscape Navigator",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Netscape_Navigator"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Firefox - Wikipedia",
+    "landed": "https://en.wikipedia.org/wiki/Firefox",
+    "total": 62,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://en.wikipedia.org/wiki/NetBSD",
+      "x": 289,
+      "y": 13.890625,
+      "text": "NetBSD",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/NetBSD"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Quantum_(Mozilla)",
+      "x": 911.515625,
+      "y": 111.359375,
+      "text": "Quantum",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Quantum_(Mozilla)"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Internet_Explorer_7",
+      "x": 546.0625,
+      "y": 315.890625,
+      "text": "Internet Explorer 7",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Internet_Explorer_7"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://en.wikipedia.org/wiki/Repository_(version_control)",
+      "x": 739.0625,
+      "y": 568.859375,
+      "text": "Repository",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://en.wikipedia.org/wiki/Repository_(version_control)"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://news.ycombinator.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Hacker News",
+    "landed": "https://news.ycombinator.com/",
+    "total": 182,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://news.ycombinator.com/news",
+      "x": 154.796875,
+      "y": 19.5,
+      "text": "Hacker News",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/hide?id=49937304&goto=news",
+      "x": 298.0234375,
+      "y": 202,
+      "text": "hide",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/hide?id=49937304&goto=news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/hide?id=49945904&goto=news",
+      "x": 201.0390625,
+      "y": 436,
+      "text": "hide",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/hide?id=49945904&goto=news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/from?site=aviationa2z.com",
+      "x": 570.5625,
+      "y": 660,
+      "text": "aviationa2z.com",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/from?site=aviationa2z.com"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Hacker News",
+    "landed": "https://news.ycombinator.com/",
+    "total": 160,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://news.ycombinator.com/vote?id=49938399&how=up&goto=news",
+      "x": 128.328125,
+      "y": 13,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/vote?id=49938399&how=up&goto=news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/vote?id=49913106&how=up&goto=news",
+      "x": 128.328125,
+      "y": 213,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/vote?id=49913106&how=up&goto=news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/hide?id=49937276&goto=news",
+      "x": 291.3046875,
+      "y": 399,
+      "text": "hide",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/hide?id=49937276&goto=news"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://news.ycombinator.com/user?id=lexx",
+      "x": 201.734375,
+      "y": 603,
+      "text": "lexx",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://news.ycombinator.com/user?id=lexx"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://github.com/microsoft/vscode",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "GitHub - microsoft/vscode: Visual Studio Code · GitHub",
+    "landed": "https://github.com/microsoft/vscode",
+    "total": 79,
+    "covered": 5,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://github.com/",
+      "x": 48,
+      "y": 36,
+      "text": "Homepage",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/lszomoru",
+      "x": 49.5,
+      "y": 281,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/lszomoru"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/microsoft/vscode/commit/46660cd9c272bb25779964163b538287eea3a85b",
+      "x": 434.796875,
+      "y": 410,
+      "text": "Add sshd to devcontainer features (",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/commit/46660cd9c272bb25779964163b538287eea3a85b"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/microsoft/vscode/commit/421d97a2784388c5191e21bf6d7f73d2d68271dd",
+      "x": 434.796875,
+      "y": 656,
+      "text": "chat: send exit survey feedback through VS Code te",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/commit/421d97a2784388c5191e21bf6d7f73d2d68271dd"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "GitHub - microsoft/vscode: Visual Studio Code · GitHub",
+    "landed": "https://github.com/microsoft/vscode",
+    "total": 66,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://github.com/microsoft/vscode/blob/main/.gitattributes",
+      "x": 100,
+      "y": 27,
+      "text": ".gitattributes",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/blob/main/.gitattributes"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/microsoft/vscode/blob/main/.mailmap",
+      "x": 100,
+      "y": 150,
+      "text": ".mailmap",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/blob/main/.mailmap"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/microsoft/vscode/commit/716116ebe31e1597710a30ae930406e8a02b3f02",
+      "x": 434.796875,
+      "y": 355,
+      "text": "Fix package.json hover metadata broken in npm 12+ ",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/commit/716116ebe31e1597710a30ae930406e8a02b3f02"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://github.com/microsoft/vscode/commit/ef64b359cd01390d8c38d13440ee471d28fb9af4",
+      "x": 434.796875,
+      "y": 601,
+      "text": "[cherry-pick] OSS tool: update third-party notices",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.com/microsoft/vscode/commit/ef64b359cd01390d8c38d13440ee471d28fb9af4"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://stackoverflow.com/questions/tagged/javascript",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Newest 'javascript' Questions - Stack Overflow",
+    "landed": "https://stackoverflow.com/questions/tagged/javascript",
+    "total": 49,
+    "covered": 8,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://stackoverflow.com/",
+      "x": 33,
+      "y": 29,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://stackoverflow.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://stackoverflow.com/ai-assist",
+      "x": 33,
+      "y": 201.609375,
+      "text": "AI Assist",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://stackoverflow.com/ai-assist"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://stackoverflow.com/questions/tagged/javascript?tab=Bounties",
+      "x": 634.28125,
+      "y": 383.40625,
+      "text": "Bountied",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://stackoverflow.com/questions/tagged/javascript?tab=Bounties"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://stackoverflow.com/users/33111008/murtaza-siddiqui",
+      "x": 697.859375,
+      "y": 530.875,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://stackoverflow.com/users/33111008/murtaza-siddiqui"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Forbidden - Stack Exchange",
+    "landed": "https://stackoverflow.com/questions/tagged/javascript",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Element: contextmenu event - Web APIs | MDN",
+    "landed": "https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event",
+    "total": 35,
+    "covered": 8,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://developer.mozilla.org/en-US/advertising",
+      "x": 1232.9375,
+      "y": 16.5,
+      "text": "Ad",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/advertising"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/plus?ref=nope",
+      "x": 1170.515625,
+      "y": 45.5,
+      "text": "Don't want to see ads?",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/plus?ref=nope"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/",
+      "x": 35,
+      "y": 124,
+      "text": "MDN",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event",
+      "x": 65,
+      "y": 549.59375,
+      "text": "dblclick",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Element: contextmenu event - Web APIs | MDN",
+    "landed": "https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event",
+    "total": 38,
+    "covered": 8,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+      "x": 314.05987548828125,
+      "y": 132.80837631225586,
+      "text": "Event",
+      "shadow": false,
+      "svg": true,
+      "created": [
+       "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/UIEvent",
+      "x": 425.3472595214844,
+      "y": 132.80837631225586,
+      "text": "UIEvent",
+      "shadow": false,
+      "svg": true,
+      "created": [
+       "https://developer.mozilla.org/en-US/docs/Web/API/UIEvent"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/",
+      "x": 35,
+      "y": 33,
+      "text": "MDN",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/cut_event",
+      "x": 53.671875,
+      "y": 418.59375,
+      "text": "cut",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.mozilla.org/en-US/docs/Web/API/Element/cut_event"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.bbc.com/news",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+    "landed": "https://www.bbc.com/news",
+    "total": 30,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.bbc.com/",
+      "x": 595,
+      "y": 40,
+      "text": "British Broadcasting Corporation",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/health",
+      "x": 555.0625,
+      "y": 102,
+      "text": "Health",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/health"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/live",
+      "x": 938.671875,
+      "y": 102,
+      "text": "Live",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/live"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/news/world/europe",
+      "x": 569.3125,
+      "y": 139,
+      "text": "Europe",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/news/world/europe"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+    "landed": "https://www.bbc.com/news",
+    "total": 11,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.bbc.com/",
+      "x": 612.5,
+      "y": 32,
+      "text": "British Broadcasting Corporation",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/watch-live-news/",
+      "x": 111,
+      "y": 34,
+      "text": "Watch Live",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/watch-live-news/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/news/articles/cme3x85013llo",
+      "x": 546.59375,
+      "y": 143.8125,
+      "text": "Medical plane with 6 on board missing off Massachu",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/news/articles/cme3x85013llo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bbc.com/news/articles/c6x2z2j8yjvgo",
+      "x": 989,
+      "y": 456.6875,
+      "text": "I interviewed Christa Pike 20 years ago - I can't ",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bbc.com/news/articles/c6x2z2j8yjvgo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": "Accept and Continue"
+ },
+ {
+  "site": "https://www.theguardian.com/international",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Latest news, sport and opinion from the Guardian",
+    "landed": "https://www.theguardian.com/international",
+    "total": 30,
+    "covered": 22,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://support.theguardian.com/?REFPVID=mustde7ajj9m49h6pgun&INTCMP=header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL&acquisitionData=%7B%22source%22%3A%22GUARDIAN_WEB%22%2C%22componentId%22%3A%22header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL%22%2C%22componentType%22%3A%22ACQUISITIONS_HEADER%22%2C%22campaignCode%22%3A%22header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL%22%2C%22abTests%22%3A%5B%7B%22name%22%3A%222026-09-25_BAU_SEPTEMBER_HEADER__US%22%2C%22variant%22%3A%22CONTROL%22%7D%5D%2C%22referrerPageviewId%22%3A%22mustde7ajj9m49h6pgun%22%2C%22referrerUrl%22%3A%22https%3A%2F%2Fwww.theguardian.com%2Finternational%22%2C%22isRemote%22%3Atrue%7D",
+      "x": 443.75,
+      "y": 320.109375,
+      "text": "Support us",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://support.theguardian.com/?REFPVID=mustde7ajj9m49h6pgun&INTCMP=header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL&acquisitionData=%7B%22source%22%3A%22GUARDIAN_WEB%22%2C%22componentId%22%3A%22header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL%22%2C%22componentType%22%3A%22ACQUISITIONS_HEADER%22%2C%22campaignCode%22%3A%22header_support_2026-09-25_BAU_SEPTEMBER_HEADER__US_CONTROL%22%2C%22abTests%22%3A%5B%7B%22name%22%3A%222026-09-25_BAU_SEPTEMBER_HEADER__US%22%2C%22variant%22%3A%22CONTROL%22%7D%5D%2C%22referrerPageviewId%22%3A%22mustde7ajj9m49h6pgun%22%2C%22referrerUrl%22%3A%22https%3A%2F%2Fwww.theguardian.com%2Finternational%22%2C%22isRemote%22%3Atrue%7D"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/email-newsletters",
+      "x": 1021.1875,
+      "y": 327,
+      "text": "Newsletters",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/email-newsletters"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/society/ng-interactive/2026/oct/04/young-generation-lonely-silence",
+      "x": 275,
+      "y": 426,
+      "text": "The new ‘Lonely Generation’",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/society/ng-interactive/2026/oct/04/young-generation-lonely-silence"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/commentisfree/2026/oct/03/the-hill-i-will-die-on-girl-thing-stop-gendering-infantilising",
+      "x": 915,
+      "y": 426,
+      "text": "Not everything is a ‘girl’ thing – stop infantilis",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/commentisfree/2026/oct/03/the-hill-i-will-die-on-girl-thing-stop-gendering-infantilising"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Latest news, sport and opinion from the Guardian",
+    "landed": "https://www.theguardian.com/international",
+    "total": 8,
+    "covered": 2,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.theguardian.com/world/2026/oct/02/aviation-security-flydubai-flight-israel",
+      "x": 275,
+      "y": 71.4375,
+      "text": "Suicide by plane or terrorism? Speculation over mo",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/world/2026/oct/02/aviation-security-flydubai-flight-israel"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+      "x": 275,
+      "y": 127.8125,
+      "text": "‘I was fighting for my life’Indian pilot hailed as",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
+      "x": 755,
+      "y": 294.1875,
+      "text": "‘This can’t go on’: tens of thousands protest agai",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.theguardian.com/world/video/2026/oct/03/how-an-87-year-old-spanish-woman-became-the-face-of-the-fight-for-affordable-housing-explainer",
+      "x": 755,
+      "y": 392.1875,
+      "text": "Video explainerHow an 87-year-old Spanish woman be",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.theguardian.com/world/video/2026/oct/03/how-an-87-year-old-spanish-woman-became-the-face-of-the-fight-for-affordable-housing-explainer"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.nytimes.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "nytimes.com",
+    "landed": "https://www.nytimes.com/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   },
+   {
+    "scrolled": true,
+    "title": "nytimes.com",
+    "landed": "https://www.nytimes.com/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://edition.cnn.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "landed": "https://edition.cnn.com/",
+    "total": 25,
+    "covered": 0,
+    "pseudo": 6,
+    "clicks": [
+     {
+      "href": "https://edition.cnn.com/",
+      "x": 103,
+      "y": 296,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://edition.cnn.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://edition.cnn.com/health",
+      "x": 444.578125,
+      "y": 296,
+      "text": "Health",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://edition.cnn.com/health"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://edition.cnn.com/2026/10/02/politics/justice-department-asks-court-allow-white-house-press-ban",
+      "x": 57,
+      "y": 359.5,
+      "text": "White House press ban",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://edition.cnn.com/2026/10/02/politics/justice-department-asks-court-allow-white-house-press-ban"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://edition.cnn.com/2026/10/02/travel/hawaii-sea-arch-collapse-pacific-scli-intl",
+      "x": 845.40625,
+      "y": 359.5,
+      "text": "Hawaii Sea Arch",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://edition.cnn.com/2026/10/02/travel/hawaii-sea-arch-collapse-pacific-scli-intl"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "",
+    "landed": "https://edition.cnn.com/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   }
+  ],
+  "error": null,
+  "consent": "Agree"
+ },
+ {
+  "site": "https://arstechnica.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+    "landed": "https://arstechnica.com/",
+    "total": 12,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://arstechnica.com/",
+      "x": 109,
+      "y": 330,
+      "text": "Ars Technica home",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/search/",
+      "x": 1098.234375,
+      "y": 330,
+      "text": "Search",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/search/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "x": 184,
+      "y": 576,
+      "text": "The dawn of the age of the exoskeleton",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments",
+      "x": 334.859375,
+      "y": 768,
+      "text": "168",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+    "landed": "https://arstechnica.com/",
+    "total": 12,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+      "x": 109,
+      "y": 216.71875,
+      "text": "Amazon’s $1B plan to combat data center backlash d",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/#comments",
+      "x": 1054.1796875,
+      "y": 298.3125,
+      "text": "24",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/#comments"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/",
+      "x": 109,
+      "y": 646.0625,
+      "text": "The 2008 economic crisis changed the US’s relation",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments",
+      "x": 681.84375,
+      "y": 749.265625,
+      "text": "40",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/#comments"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.washingtonpost.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+    "landed": "https://www.washingtonpost.com/",
+    "total": 25,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://subscribe.washingtonpost.com/acquisition/?oscode=RPWH&s_l=ONSITE_HEADER_HOMEPAGE&p=s_v&s_ct=homepage&itid=nav_subscribe_logged_out&tid=nav_subscribe_logged_out&acqEntType=mktg_onsite_article&destination=https%3A%2F%2Fwww.washingtonpost.com%2F&arcId=undefined",
+      "x": 1094.296875,
+      "y": 329.5,
+      "text": "Subscribe",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://subscribe.washingtonpost.com/acquisition/?oscode=RPWH&s_l=ONSITE_HEADER_HOMEPAGE&p=s_v&s_ct=homepage&itid=nav_subscribe_logged_out&tid=nav_subscribe_logged_out&acqEntType=mktg_onsite_article&destination=https%3A%2F%2Fwww.washingtonpost.com%2F&arcId=undefined"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/opinions/",
+      "x": 236.515625,
+      "y": 544,
+      "text": "Opinions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/opinions/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/business/",
+      "x": 723.65625,
+      "y": 544,
+      "text": "Business",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/business/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/nation/2026/10/03/cornell-rape-allegations-reignite-debate-over-laws-intoxication-consent/",
+      "x": 153,
+      "y": 665.6875,
+      "text": "Prosecution of Cornell rape allegations may hinge ",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/nation/2026/10/03/cornell-rape-allegations-reignite-debate-over-laws-intoxication-consent/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+    "landed": "https://www.washingtonpost.com/",
+    "total": 29,
+    "covered": 1,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://washingtonpost.com/",
+      "x": 571,
+      "y": 29.9921875,
+      "text": "Democracy Dies in Darkness",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://washingtonpost.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/opinions/2026/10/02/no-atlantic-hurricanes-this-season-is-worth-celebrating/",
+      "x": 1128,
+      "y": 85,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/opinions/2026/10/02/no-atlantic-hurricanes-this-season-is-worth-celebrating/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/people/edith-pritchett/",
+      "x": 945,
+      "y": 337,
+      "text": "Edith Pritchett",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/people/edith-pritchett/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.washingtonpost.com/opinions/2026/10/01/doctors-charging-emails-defeats-purpose-primary-care/",
+      "x": 945,
+      "y": 635,
+      "text": "Bill patients for emailing? This could backfire.",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.washingtonpost.com/opinions/2026/10/01/doctors-charging-emails-defeats-purpose-primary-care/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.espn.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "ESPN - Serving Sports Fans. Anytime. Anywhere.",
+    "landed": "https://www.espn.com/",
+    "total": 45,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.espn.com/mlb/game/_/gameId/401907990/white-sox-guardians",
+      "x": 206.484375,
+      "y": 32.5,
+      "text": "Final CHW lead series 1-0 Chicago White Sox White ",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/mlb/game/_/gameId/401907990/white-sox-guardians"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.espn.com/fantasy/",
+      "x": 1014.46875,
+      "y": 87.5,
+      "text": "Fantasy Fantasy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/fantasy/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.espn.com/nba/story/_/id/50092448/lebron-james-calls-scrimmage-great-first-step-new-look-76ers",
+      "x": 987,
+      "y": 398.5,
+      "text": "LeBron, Brown scrimmage for 76ers as fans flock fo",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/nba/story/_/id/50092448/lebron-james-calls-scrimmage-great-first-step-new-look-76ers"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.espn.com/watch/catalog/1a5f0227-a13e-396c-8cea-8961bc288666",
+      "x": 55,
+      "y": 608,
+      "text": "NHL Power Play",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/watch/catalog/1a5f0227-a13e-396c-8cea-8961bc288666"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "ESPN - Serving Sports Fans. Anytime. Anywhere.",
+    "landed": "https://www.espn.com/",
+    "total": 40,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.espn.com/",
+      "x": 38,
+      "y": 22,
+      "text": "ESPN",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.espn.com/nhl/",
+      "x": 457.1328125,
+      "y": 23.5,
+      "text": "NHL NHL",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/nhl/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.espn.com/video/clip/_/id/50085057/have-cowboys-proven-better-micah-parsons-stephen-weighs-in",
+      "x": 987,
+      "y": 345.5,
+      "text": "Have Cowboys proven they are better off without Mi",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.espn.com/video/clip/_/id/50085057/have-cowboys-proven-better-micah-parsons-stephen-weighs-in"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "http://www.espn.com/espn/apps/download?app=espn",
+      "x": 55,
+      "y": 660,
+      "text": "ESPN",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "http://www.espn.com/espn/apps/download?app=espn"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ }
+]

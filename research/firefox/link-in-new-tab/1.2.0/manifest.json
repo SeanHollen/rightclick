@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+	"name": "Link in New Tab",
+	"version": "1.2.0",
+
+	"description": "Opens links in new tabs",
+
+	"icons": {
+		"96": "plusgreen.png"
+	},
+
+	"permissions": [
+		"tabs",
+		"storage",
+		"contextMenus"
+	],
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"browser_action": {
+		"browser_style": true,
+		"default_title": "Toggle opening links in new tab",
+		"default_icon": {
+			"96": "plusgreen.png"
+		}
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content-script.js"]
+		}
+	]
+}

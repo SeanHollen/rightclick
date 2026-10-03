@@ -1,0 +1,57 @@
+{
+  "extensionDescription": {
+    "message": "在任何链接上双击（或用手指点击两次）以将其打开到新标签页中。专为平板电脑和笔记本电脑触控板而设计，它们的鼠标上没有两个按钮。"
+  },
+
+  "open_focus": {
+    "message": "显示在前面或后面"
+  },
+
+  "open_tab_front": {
+    "message": "显示新打开的标签"
+  },
+
+  "open_tab_background": {
+    "message": "在后台打开新标签页"
+  },
+
+  "open_where": {
+    "message": "放在哪里"
+  },
+
+ "open_tab_next": {
+    "message": "将新标签放在当前标签旁边"
+  },
+
+ "open_tab_end": {
+    "message": "放在标签条的末端"
+  },
+
+  "blacklist": {
+    "message": "黑名单域名（每行一个）"
+  },
+
+  "suggest_link": {
+    "message": "反馈？"
+  },
+
+  "thankHeader": {
+    "message": "感谢您安装 Tap To Tab！"
+  },
+
+  "thankBody": {
+    "message": "您可以双击任何链接以在新选项卡中打开它。如果您遇到任何问题，请随时与我们联系。"
+  },
+
+  "thankFooter": {
+    "message": "保留所有权利。"
+  },
+
+  "commentLink": {
+    "message": "查看帮助论坛"
+  },
+
+  "videoLink": {
+    "message": "查看 YouTube 视频"
+  }
+}

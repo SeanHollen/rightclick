@@ -1,0 +1,74 @@
+{
+	"extensionName": {
+		"message": "Right Links WE"
+	},
+	"extensionDescription": {
+		"message": "Klicken Sie mit der rechten Maustaste, um Verweise auf neuen Tabs zu öffnen (für Touchpads usw.)"
+	},
+	"buttonTooltip": {
+		"message": "Right Links WE: "
+	},
+	"tooltipEnabled": {
+		"message": "Aktiviert"
+	},
+	"tooltipDisabled": {
+		"message": "Deaktiviert"
+	},
+	"options": {
+		"message": "Options"
+	},
+	"updateNotice": {
+		"message": "<a href='https://github.com/Infocatcher/Right_Links_WE#issues'>Some features</a> are not implementable anymore due to <a href='https://wiki.mozilla.org/WebExtensions'>WebExtensions</a> restrictions, for Firefox 56 and older please use <a href='https://addons.thunderbird.net/seamonkey/addon/right-links/'>Right Links</a> (<a href='https://github.com/Infocatcher/Right_Links'>GitHub</a>)."
+	},
+	"enabled": {
+		"message": "Aktiviert"
+	},
+	"keyboardShortcut": {
+		"message": "Keyboard shortcut:"
+	},
+	"longLeftClick": {
+		"message": "Langer Linksklick"
+	},
+	"loadInBackground": {
+		"message": "Verweise im Hintergrund laden"
+	},
+	"loadIn": {
+		"message": "Load in"
+	},
+	"newTab": {
+		"message": "new tab"
+	},
+	"newWindow": {
+		"message": "new window"
+	},
+	"currentTab": {
+		"message": "current tab"
+	},
+	"rightClick": {
+		"message": "Right-click"
+	},
+	"enabledOnImages": {
+		"message": "Klicks auf Grafiken anwenden"
+	},
+	"canvasImages": {
+		"message": "Canvas images"
+	},
+	"useBlob": {
+		"message": "Use blob:…"
+	},
+	"sizeLimit": {
+		"message": "Size limit (px):"
+	},
+	"contextMenuTimeout": {
+		"message": "Context menu timeout (ms): "
+	},
+	"longLeftClickTimeout": {
+		"message": "Long left-click timeout (ms): "
+	},
+	"mouseMoveTolerance": {
+		"message": "Mouse move tolerance (for mouse gestures, in px): "
+	},
+	"debug": {
+		"message": "Debug mode"
+	}
+}

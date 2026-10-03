@@ -1,0 +1,37 @@
+{
+  "extensionDescription": {
+    "message": "Double-cliquez (ou appuyez deux fois avec le doigt) sur n'importe quel lien pour l'ouvrir dans un nouvel onglet. Conçu pour les tablettes et les trackpad pour ordinateur portable, qui n'ont pas deux boutons sur leur souris."
+  },
+
+  "open_focus": {
+    "message": "Montrer devant ou derrière"
+  },
+
+  "open_tab_front": {
+    "message": "Afficher l'onglet nouvellement ouvert"
+  },
+
+  "open_tab_background": {
+    "message": "Ouvrez un nouvel onglet en arrière-plan"
+  },
+
+  "open_where": {
+    "message": "Où le mettre"
+  },
+
+ "open_tab_next": {
+    "message": "Mettez un nouvel onglet à côté de l'onglet actuel"
+  },
+
+ "open_tab_end": {
+    "message": "Mettez à la fin de la bande de tabulation"
+  },
+
+  "blacklist": {
+    "message": "Liste noire des noms de domaine (un par ligne)"
+  },
+
+  "suggest_link": {
+    "message": "Retour d'information?"
+  }
+}

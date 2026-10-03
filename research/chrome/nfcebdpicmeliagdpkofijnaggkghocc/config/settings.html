@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Right Click Opens Link in New Tab (Correct Order) - User Settings</title>
+    <link rel="stylesheet" type="text/css" href="../css/settings.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <h4>Settings</h4>
+            </div>
+            <div class="settings">
+                <div>
+                    <div>When clicking links:</div>
+                    <div class="indent one">
+                        <div>
+                            Right Click opens link in a new
+                            <select id="link-right-click">
+                                <option value="fore" class="fore">foreground</option>
+                                <option value="back" class="back" selected>background</option>
+                            </select>
+                            tab.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>When left clicking links:</div>
+                    <div class="indent one">
+                        <div>
+                            <input type="checkbox" id="link-left-click-prevent-new-tab">
+                            <label for="link-left-click-prevent-new-tab">Prevent link opening in a new tab.</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>Where should the extension work?</div>
+                    <div class="indent one">
+                        <div>
+                            <input type="radio" id="mode-blacklist" name="list-mode" value="blacklist">
+                            <label for="mode-blacklist">Deny list: enable everywhere except these domains</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="mode-whitelist" name="list-mode" value="whitelist">
+                            <label for="mode-whitelist">Allow list: enable only on these domains</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label id="domain-list-label" for="domain-list">Domains:</label>
+                    <div class="indent one">
+                        <div>
+                            <textarea id="domain-list" rows="4" style="width: 100%" placeholder="Enter domains (one per line)&#10;Example:&#10;example.com&#10;*.example.org"></textarea>
+                            <div id="domain-list-help" style="font-size: 0.9em; color: #666; margin-top: 5px;">
+                                Enter one domain per line. Use * as a wildcard (e.g. *.example.com).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p id="settings-status" role="status"></p>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://buymeacoffee.com/billhedworz" target="_blank">
+                    <img src="/images/bmc.webp" alt="Buy Me A Coffee" style="height: 60px;">
+                </a>
+            </div>
+        </div>
+        <script src="../js/webext.js"></script>
+        <script src="../js/settings.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+{
+  "extensionDescription": {
+    "message": "Haga doble clic (o toque dos veces con el dedo) en cualquier enlace para abrirlo en una nueva pestaña. Diseñado para tabletas y trackpads para computadoras portátiles, que no tienen dos botones en su mouse."
+  },
+
+  "open_focus": {
+    "message": "Mostrar al frente o atrás"
+  },
+
+  "open_tab_front": {
+    "message": "Mostrar la pestaña recién abierta"
+  },
+
+  "open_tab_background": {
+    "message": "Abrir una nueva pestaña en segundo plano"
+  },
+
+  "open_where": {
+    "message": "Dónde ponerlo"
+  },
+
+ "open_tab_next": {
+    "message": "Poner nueva pestaña al lado de la pestaña actual"
+  },
+
+ "open_tab_end": {
+    "message": "Poner al final de la tira de pestañas"
+  },
+
+  "blacklist": {
+    "message": "Nombres de dominio de lista negra (uno por línea)"
+  },
+
+  "suggest_link": {
+    "message": "¿Realimentación?"
+  }
+}

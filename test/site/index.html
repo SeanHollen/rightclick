@@ -1,0 +1,37 @@
+<!doctype html><meta charset=utf-8><title>RC test</title>
+<style>a,div.box{display:inline-block;margin:6px;padding:6px;border:1px solid #888} body{font:14px sans-serif}</style>
+<div id=log></div>
+<p>
+<a id=l1 href="t/1.html">one</a>
+<a id=l2 href="t/2.html">two</a>
+<a id=l3 href="t/3.html">three</a>
+<a id=l4 href="t/4.html">four</a>
+<a id=l5 href="t/5.html">five</a>
+<a id=l6 href="t/6.html">six</a>
+</p>
+<p><a id=stopper href="t/7.html"><span id=stopspan>child stops propagation</span></a></p>
+<p id=openhost></p><p id=closedhost></p>
+<p><svg width=120 height=30><a id=svglink href="t/8.html"><rect width=120 height=30 fill=#ccf /><text x=5 y=20>svg link</text></a></svg></p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" width=120 height=30 usemap=#m style="background:#cfc">
+<map name=m><area id=arealink shape=rect coords="0,0,120,30" href="t/9.html"></map></p>
+<p><a id=jslink href="javascript:void(0)">js link</a> <a id=hashlink href="#">hash link</a> <a id=mailto href="data:text/plain,hi">data link</a></p>
+<p id=dynhost></p>
+<p><a id=custommenu href="t/10.html">link on page w/ custom menu</a></p>
+<p><iframe id=frame src="frame.html" width=300 height=60></iframe></p>
+<script>
+// page script that eats events on the child span
+const s = document.getElementById('stopspan');
+for (const t of ['mousedown','mouseup','contextmenu']) s.addEventListener(t, e => e.stopPropagation());
+// open + closed shadow roots
+const o = document.getElementById('openhost').attachShadow({mode:'open'});
+o.innerHTML = '<a id=shadowopen href="/t/11.html">open shadow link</a>';
+const c = document.getElementById('closedhost').attachShadow({mode:'closed'});
+c.innerHTML = '<a href="/t/12.html" style="display:inline-block;padding:6px;border:1px solid #888">closed shadow link</a>';
+// link added later
+setTimeout(() => { document.getElementById('dynhost').innerHTML = '<a id=dyn href="t/6.html">dynamic link</a>'; }, 300);
+// site with its own context menu
+window.customMenuShown = 0;
+document.addEventListener('contextmenu', e => { if (e.target.closest && e.target.closest('#custommenu')) { e.preventDefault(); window.customMenuShown++; } });
+window.events = [];
+for (const t of ['mousedown','mouseup','contextmenu','auxclick']) window.addEventListener(t, e => window.events.push(t + ':' + e.button), true);
+</script>

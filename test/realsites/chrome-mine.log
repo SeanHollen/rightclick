@@ -1,0 +1,18 @@
+https://en.wikipedia.org/wiki/Firefox: 8/8 ok
+https://news.ycombinator.com/: 8/8 ok
+https://github.com/microsoft/vscode: 8/8 ok
+https://stackoverflow.com/questions/tagged/javascript: 4/4 ok
+https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event: 8/8 ok
+https://www.bbc.com/news: 8/8 ok
+https://www.theguardian.com/international: 8/8 ok
+https://www.nytimes.com/: 0/0 ok
+https://edition.cnn.com/: 4/4 ok
+https://arstechnica.com/: 8/8 ok
+https://www.washingtonpost.com/: 8/8 ok
+https://www.espn.com/: 8/8 ok
+Warning: Detected unsettled top-level await at file:///home/seanhollen/rightclick-newtab/test/realsites/run-chrome.mjs:95
+      await load(site, scrolled);
+      ^
+
+
+
