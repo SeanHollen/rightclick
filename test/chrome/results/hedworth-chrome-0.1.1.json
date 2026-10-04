@@ -344,32 +344,33 @@
    ],
    "menu": "closed"
   },
-  "javascript: link": {
-   "ok": true,
-   "why": "",
+  "hover card closes on press, another link underneath (Wikipedia-style preview)": {
+   "ok": false,
+   "why": "no tab opened",
    "tabs": [
     "case/38.html*"
    ],
-   "menu": "open"
-  },
-  "href=\"#\"": {
-   "ok": false,
-   "why": "opened case/39.html#; normal menu suppressed",
-   "tabs": [
-    "case/39.html*",
-    "case/39.html#"
-   ],
    "menu": "closed"
   },
-  "data: link": {
+  "link inside a popover (top layer)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/40.html*"
+    "case/39.html*",
+    "t/1.html"
    ],
-   "menu": "open"
+   "menu": "closed"
   },
-  "<a> without href (JS pseudo-link)": {
+  "link inside a <details> <summary>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/40.html*",
+    "t/1.html"
+   ],
+   "menu": "closed"
+  },
+  "link covered by an invisible overlay (consent/scrim)": {
    "ok": true,
    "why": "",
    "tabs": [
@@ -377,7 +378,7 @@
    ],
    "menu": "open"
   },
-  "image that is not a link": {
+  "pointer-events:none link inside a clickable card": {
    "ok": true,
    "why": "",
    "tabs": [
@@ -385,7 +386,7 @@
    ],
    "menu": "open"
   },
-  "canvas that is not a link": {
+  "javascript: link": {
    "ok": true,
    "why": "",
    "tabs": [
@@ -393,11 +394,52 @@
    ],
    "menu": "open"
   },
+  "href=\"#\"": {
+   "ok": false,
+   "why": "opened case/44.html#; normal menu suppressed",
+   "tabs": [
+    "case/44.html*",
+    "case/44.html#"
+   ],
+   "menu": "closed"
+  },
+  "data: link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/45.html*"
+   ],
+   "menu": "open"
+  },
+  "<a> without href (JS pseudo-link)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/46.html*"
+   ],
+   "menu": "open"
+  },
+  "image that is not a link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/47.html*"
+   ],
+   "menu": "open"
+  },
+  "canvas that is not a link": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/48.html*"
+   ],
+   "menu": "open"
+  },
   "plain text": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/44.html*"
+    "case/49.html*"
    ],
    "menu": "open"
   },
@@ -405,7 +447,7 @@
    "ok": false,
    "why": "opened t/1.html; normal menu suppressed",
    "tabs": [
-    "case/45.html*",
+    "case/50.html*",
     "t/1.html"
    ],
    "menu": "closed"
@@ -414,7 +456,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/46.html*"
+    "case/51.html*"
    ],
    "menu": "open"
   },
@@ -422,7 +464,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/47.html*"
+    "case/52.html*"
    ],
    "menu": "closed"
   },
@@ -430,7 +472,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/48.html*"
+    "case/53.html*"
    ],
    "menu": "closed"
   },
@@ -438,7 +480,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/49.html*"
+    "case/54.html*"
    ],
    "menu": "closed"
   },
@@ -446,7 +488,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/50.html*"
+    "case/55.html*"
    ],
    "menu": "closed"
   },
@@ -454,7 +496,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/51.html*"
+    "case/56.html*"
    ],
    "menu": "closed"
   },
@@ -462,7 +504,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/52.html*"
+    "case/57.html*"
    ],
    "menu": "closed"
   },
@@ -470,7 +512,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/53.html*"
+    "case/58.html*"
    ],
    "menu": "closed"
   },
@@ -478,7 +520,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/54.html*"
+    "case/59.html*"
    ],
    "menu": "closed"
   },
@@ -486,7 +528,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/55.html*"
+    "case/60.html*"
    ],
    "menu": "closed"
   },
@@ -494,16 +536,16 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/56.html*"
+    "case/61.html*"
    ],
    "menu": "closed"
   },
   "<a href=\"#\"> used as a button, with its own menu": {
    "ok": false,
-   "why": "opened case/57.html#",
+   "why": "opened case/62.html#",
    "tabs": [
-    "case/57.html*",
-    "case/57.html#"
+    "case/62.html*",
+    "case/62.html#"
    ],
    "menu": "closed"
   },
@@ -511,7 +553,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/58.html*"
+    "case/63.html*"
    ],
    "menu": "closed"
   },
@@ -519,7 +561,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/59.html*"
+    "case/64.html*"
    ],
    "menu": "closed"
   },
@@ -527,7 +569,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/60.html*"
+    "case/65.html*"
    ],
    "menu": "closed"
   },
@@ -535,7 +577,7 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/61.html*"
+    "case/66.html*"
    ],
    "menu": "closed"
   },
@@ -543,7 +585,7 @@
    "ok": false,
    "why": "opened t/1.html",
    "tabs": [
-    "case/62.html*",
+    "case/67.html*",
     "t/1.html"
    ],
    "menu": "closed"
@@ -552,11 +594,11 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/63.html*",
+    "case/68.html*",
     "t/1.html"
    ],
    "menu": "closed"
   }
  },
- "perf_ms": 1208.8000000715256
+ "perf_ms": 1199.6000000238419
 }

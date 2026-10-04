@@ -149,8 +149,9 @@ const platform = {
     if (excluded || !event.isTrusted || event.pointerType !== 'mouse' ||
         !isPlainRightButton(event)) return;
     const link = findLink(event);
-    if (!link || link.isContentEditable || !urlOf(link)) return;
-    pending = { link, x: event.screenX, y: event.screenY, opened: false };
+    const url = link && !link.isContentEditable && urlOf(link);
+    if (!url) return;
+    pending = { link, url, x: event.screenX, y: event.screenY, opened: false };
   }
 
   // On Linux and macOS contextmenu fires right after pointerdown; on Windows
@@ -173,11 +174,11 @@ const platform = {
       return;
     }
     // The pointer stayed put, so it is still over the link even if the page
-    // captured the pointer. If the page re-rendered the link meanwhile, use
-    // whatever link is under the pointer now. The URL is read at release, as
-    // a middle-click would, so hrefs rewritten on press are honoured.
-    const link = press.link.isConnected ? press.link : findLink(event);
-    const url = link && urlOf(link);
+    // captured the pointer. The URL is read at release, as a middle-click
+    // would, so hrefs rewritten on press are honoured. If the page removed
+    // the link meanwhile (re-render, hover card closing on press), use the URL
+    // from the press rather than whatever is under the pointer now.
+    const url = press.link.isConnected ? urlOf(press.link) : press.url;
     if (!url) {
       pending = null;
       return;

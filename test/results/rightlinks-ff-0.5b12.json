@@ -305,63 +305,100 @@
     "t/1.html"
    ]
   },
-  "javascript: link": {
+  "hover card closes on press, another link underneath (Wikipedia-style preview)": {
    "ok": false,
-   "why": "normal menu suppressed",
+   "why": "no tab opened; native menu shown",
    "tabs": [
     "case/38.html*"
    ]
   },
-  "href=\"#\"": {
-   "ok": false,
-   "why": "opened case/39.html#; normal menu suppressed",
+  "link inside a popover (top layer)": {
+   "ok": true,
+   "why": "",
    "tabs": [
     "case/39.html*",
-    "case/39.html#"
+    "t/1.html"
    ]
   },
-  "data: link": {
-   "ok": false,
-   "why": "normal menu suppressed",
+  "link inside a <details> <summary>": {
+   "ok": true,
+   "why": "",
    "tabs": [
-    "case/40.html*"
+    "case/40.html*",
+    "t/1.html"
    ]
   },
-  "<a> without href (JS pseudo-link)": {
+  "link covered by an invisible overlay (consent/scrim)": {
    "ok": true,
    "why": "",
    "tabs": [
     "case/41.html*"
    ]
   },
+  "pointer-events:none link inside a clickable card": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/42.html*"
+   ]
+  },
+  "javascript: link": {
+   "ok": false,
+   "why": "normal menu suppressed",
+   "tabs": [
+    "case/43.html*"
+   ]
+  },
+  "href=\"#\"": {
+   "ok": false,
+   "why": "opened case/44.html#; normal menu suppressed",
+   "tabs": [
+    "case/44.html*",
+    "case/44.html#"
+   ]
+  },
+  "data: link": {
+   "ok": false,
+   "why": "normal menu suppressed",
+   "tabs": [
+    "case/45.html*"
+   ]
+  },
+  "<a> without href (JS pseudo-link)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/46.html*"
+   ]
+  },
   "image that is not a link": {
    "ok": false,
    "why": "opened t/pixel.gif; normal menu suppressed",
    "tabs": [
-    "case/42.html*",
+    "case/47.html*",
     "t/pixel.gif"
    ]
   },
   "canvas that is not a link": {
    "ok": false,
-   "why": "opened blob:moz-extension://a0a47185-1b55-414f-ac3a-11d8b1195581/0382356b-ec70-41f1-953c-576dc02e7a23; normal menu suppressed",
+   "why": "opened blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/524c2ba3-96e0-4e59-b8fc-1f8706b1f872; normal menu suppressed",
    "tabs": [
-    "case/43.html*",
-    "blob:moz-extension://a0a47185-1b55-414f-ac3a-11d8b1195581/0382356b-ec70-41f1-953c-576dc02e7a23"
+    "case/48.html*",
+    "blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/524c2ba3-96e0-4e59-b8fc-1f8706b1f872"
    ]
   },
   "plain text": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/44.html*"
+    "case/49.html*"
    ]
   },
   "link inside a rich-text editor (contenteditable)": {
    "ok": false,
    "why": "opened t/1.html; normal menu suppressed",
    "tabs": [
-    "case/45.html*",
+    "case/50.html*",
     "t/1.html"
    ]
   },
@@ -369,78 +406,78 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/46.html*"
+    "case/51.html*"
    ]
   },
   "right-drag 40px left (cancel)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/47.html*"
+    "case/52.html*"
    ]
   },
   "right-drag 40px up (cancel)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/48.html*"
+    "case/53.html*"
    ]
   },
   "right-drag 30px left, staying on a wide link (cancel)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/49.html*"
+    "case/54.html*"
    ]
   },
   "right-drag 30px up, staying on a tall link (cancel)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/50.html*"
+    "case/55.html*"
    ]
   },
   "right-drag 40px right (cancel)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/51.html*"
+    "case/56.html*"
    ]
   },
   "custom element with its own right-click menu (file-manager row)": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/52.html*"
+    "case/57.html*"
    ]
   },
   "div role=\"link\" with its own right-click menu": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/53.html*"
+    "case/58.html*"
    ]
   },
   "<button> with its own right-click menu": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/54.html*"
+    "case/59.html*"
    ]
   },
   "canvas game using right mouse button": {
    "ok": false,
-   "why": "site's menu blocked; opened blob:moz-extension://a0a47185-1b55-414f-ac3a-11d8b1195581/78ad52fb-e9ab-4d07-b792-da471215fe79",
+   "why": "site's menu blocked; opened blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/28c255c9-c4a5-4f1a-859a-2bee36cd093e",
    "tabs": [
-    "case/55.html*",
-    "blob:moz-extension://a0a47185-1b55-414f-ac3a-11d8b1195581/78ad52fb-e9ab-4d07-b792-da471215fe79"
+    "case/60.html*",
+    "blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/28c255c9-c4a5-4f1a-859a-2bee36cd093e"
    ]
   },
   "image editor: image with its own right-click menu": {
    "ok": false,
    "why": "site's menu blocked; opened t/pixel.gif",
    "tabs": [
-    "case/56.html*",
+    "case/61.html*",
     "t/pixel.gif"
    ]
   },
@@ -448,42 +485,42 @@
    "ok": false,
    "why": "site's menu blocked",
    "tabs": [
-    "case/57.html*"
+    "case/62.html*"
    ]
   },
   "<a href=javascript:> with its own menu": {
    "ok": false,
    "why": "site's menu blocked",
    "tabs": [
-    "case/58.html*"
+    "case/63.html*"
    ]
   },
   "<a> without href inside an app, with its own menu": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/59.html*"
+    "case/64.html*"
    ]
   },
   "custom element with an href attribute (not a link) and its own menu": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/60.html*"
+    "case/65.html*"
    ]
   },
   "SVG icon <use xlink:href> (not a link) with its own menu": {
    "ok": true,
    "why": "",
    "tabs": [
-    "case/61.html*"
+    "case/66.html*"
    ]
   },
   "rich-text editor: link inside contenteditable with editor menu": {
    "ok": false,
    "why": "site's menu blocked; opened t/1.html",
    "tabs": [
-    "case/62.html*",
+    "case/67.html*",
     "t/1.html"
    ]
   },
@@ -491,10 +528,10 @@
    "ok": true,
    "why": "",
    "tabs": [
-    "case/63.html*",
+    "case/68.html*",
     "t/1.html"
    ]
   }
  },
- "perf_ms": 1223
+ "perf_ms": 1236
 }

@@ -349,5 +349,2554 @@
   ],
   "error": null,
   "consent": null
+ },
+ {
+  "site": "https://www.twitch.tv/directory",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "All Categories - Twitch",
+    "landed": "https://www.twitch.tv/directory",
+    "total": 22,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.twitch.tv/",
+      "x": 24,
+      "y": 197,
+      "text": "Twitch Home",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/sodapoppin",
+      "x": 29,
+      "y": 432.5390625,
+      "text": "sodapoppinWorld of WarcraftLive25.7K25.7K viewersH",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/sodapoppin"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/directory/esports",
+      "x": 1086.59375,
+      "y": 481.09375,
+      "text": "Esports",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/directory/esports"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/ironmouse",
+      "x": 29,
+      "y": 621.9765625,
+      "text": "ironmouseWatch Your Plastic DuckLive6.9K6.9K viewe",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/ironmouse"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "All Categories - Twitch",
+    "landed": "https://www.twitch.tv/directory",
+    "total": 22,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.twitch.tv/",
+      "x": 24,
+      "y": 197,
+      "text": "Twitch Home",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/sodapoppin",
+      "x": 29,
+      "y": 432.5390625,
+      "text": "sodapoppinWorld of WarcraftLive25.7K25.7K viewersH",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/sodapoppin"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/directory/esports",
+      "x": 1086.59375,
+      "y": 481.09375,
+      "text": "Esports",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/directory/esports"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.twitch.tv/ironmouse",
+      "x": 29,
+      "y": 621.9765625,
+      "text": "ironmouseWatch Your Plastic DuckLive6.9K6.9K viewe",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.twitch.tv/ironmouse"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://medium.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Medium: Read and write stories.",
+    "landed": "https://medium.com/",
+    "total": 16,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://medium.com/",
+      "x": 89,
+      "y": 35.640625,
+      "text": "Medium Logo",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://medium.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=--------------------------new_post_topnav--------------------",
+      "x": 1003.234375,
+      "y": 37.5,
+      "text": "Write",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=--------------------------new_post_topnav--------------------"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://status.medium.com/",
+      "x": 361.90625,
+      "y": 866,
+      "text": "Status",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://status.medium.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://policy.medium.com/medium-privacy-policy-f03bf92035c9",
+      "x": 668.3203125,
+      "y": 866,
+      "text": "Privacy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://policy.medium.com/medium-privacy-policy-f03bf92035c9"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Attention Required! | Cloudflare",
+    "landed": "https://medium.com/",
+    "total": 1,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.cloudflare.com/5xx-error-landing",
+      "x": 904.640625,
+      "y": 844.484375,
+      "text": "Cloudflare",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.cloudflare.com/5xx-error-landing"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://x.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "X. It’s what’s happening / X",
+    "landed": "https://x.com/",
+    "total": 16,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://x.com/tos",
+      "x": 238.734375,
+      "y": 695.59375,
+      "text": "Terms of Service",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://x.com/tos"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://about.x.com/",
+      "x": 269.1953125,
+      "y": 876,
+      "text": "About",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://about.x.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://support.x.com/articles/20170514",
+      "x": 527.71875,
+      "y": 876,
+      "text": "Cookies",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://support.x.com/articles/20170514"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.x.com/",
+      "x": 722.890625,
+      "y": 876,
+      "text": "Developers",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.x.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "X. It’s what’s happening / X",
+    "landed": "https://x.com/",
+    "total": 16,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://x.com/tos",
+      "x": 238.734375,
+      "y": 695.59375,
+      "text": "Terms of Service",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://x.com/tos"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://about.x.com/",
+      "x": 269.1953125,
+      "y": 876,
+      "text": "About",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://about.x.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://support.x.com/articles/20170514",
+      "x": 527.71875,
+      "y": 876,
+      "text": "Cookies",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://support.x.com/articles/20170514"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://developer.x.com/",
+      "x": 722.890625,
+      "y": 876,
+      "text": "Developers",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://developer.x.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.linkedin.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "LinkedIn: Log In or Sign Up",
+    "landed": "https://www.linkedin.com/",
+    "total": 18,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo",
+      "x": 101,
+      "y": 38,
+      "text": "LinkedIn",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs",
+      "x": 825.5625,
+      "y": 38,
+      "text": "Jobs",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
+      "x": 166.484375,
+      "y": 409.5,
+      "text": "User Agreement",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/top-content/career/",
+      "x": 602,
+      "y": 772,
+      "text": "Career",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/top-content/career/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "LinkedIn: Log In or Sign Up",
+    "landed": "https://www.linkedin.com/",
+    "total": 25,
+    "covered": 3,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo",
+      "x": 101,
+      "y": 38,
+      "text": "LinkedIn",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/games?trk=guest_homepage-basic_guest_nav_menu_games",
+      "x": 905.5625,
+      "y": 38,
+      "text": "Games",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/games?trk=guest_homepage-basic_guest_nav_menu_games"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/jobs/operations-jobs-arlington-va?trk=homepage-basic_suggested-search",
+      "x": 797.296875,
+      "y": 172,
+      "text": "Operations",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/jobs/operations-jobs-arlington-va?trk=homepage-basic_suggested-search"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.linkedin.com/products/categories/e-commerce-platforms",
+      "x": 602,
+      "y": 738.671875,
+      "text": "E-Commerce Platforms",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.linkedin.com/products/categories/e-commerce-platforms"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.amazon.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Amazon.com. Spend less. Smile more.",
+    "landed": "https://www.amazon.com/",
+    "total": 59,
+    "covered": 24,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.amazon.com/ref=nav_logo",
+      "x": 37,
+      "y": 30,
+      "text": ".us",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/ref=nav_logo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.amazon.com/prime?ref_=nav_cs_primelink_nonmember",
+      "x": 309.890625,
+      "y": 79,
+      "text": "Prime",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/prime?ref_=nav_cs_primelink_nonmember"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+      "x": 987.484375,
+      "y": 91.5,
+      "text": "Sign in",
+      "shadow": false,
+      "svg": false,
+      "result": "skipped: link covered/moved before click (hover popup, carousel)",
+      "ok": null
+     },
+     {
+      "href": "https://www.amazon.com/Ring-Spotlight-Wide-Angle-Motion-Activated-Spotlights/dp/B0GX2JSKPP/?_encoding=UTF8&pd_rd_w=Njm3M&content-id=amzn1.sym.6374726e-4a94-43d4-8718-122f0c46278c&pf_rd_p=6374726e-4a94-43d4-8718-122f0c46278c&pf_rd_r=HQGE4FS2FH9T39Y6YX7D&pd_rd_wg=sFexX&pd_rd_r=14e0ce81-63ff-407f-aa84-180218e1387f&ref_=pd_hp_d_r_btf_dealz_sod",
+      "x": 62,
+      "y": 739.734375,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/Ring-Spotlight-Wide-Angle-Motion-Activated-Spotlights/dp/B0GX2JSKPP/?_encoding=UTF8&pd_rd_w=Njm3M&content-id=amzn1.sym.6374726e-4a94-43d4-8718-122f0c46278c&pf_rd_p=6374726e-4a94-43d4-8718-122f0c46278c&pf_rd_r=HQGE4FS2FH9T39Y6YX7D&pd_rd_wg=sFexX&pd_rd_r=14e0ce81-63ff-407f-aa84-180218e1387f&ref_=pd_hp_d_r_btf_dealz_sod"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Amazon.com",
+    "landed": "https://www.amazon.com/",
+    "total": 3,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.amazon.com/",
+      "x": 566,
+      "y": 216.15625,
+      "text": "Continue",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.amazon.com/",
+      "x": 566,
+      "y": 216.15625,
+      "text": "Continue",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088",
+      "x": 571.21875,
+      "y": 356.65625,
+      "text": "Conditions of Use",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": "Continue"
+ },
+ {
+  "site": "https://www.ebay.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+    "landed": "https://www.ebay.com/",
+    "total": 24,
+    "covered": 1,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F",
+      "x": 85.2421875,
+      "y": 16,
+      "text": "Sign in",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/sl/sell",
+      "x": 894.890625,
+      "y": 16,
+      "text": "Sell",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/sl/sell"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/sch/ebayadvsearch",
+      "x": 1203.21875,
+      "y": 71,
+      "text": "Advanced",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/sch/ebayadvsearch"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/b/Collectibles-Art/bn_7000259855",
+      "x": 485.125,
+      "y": 135,
+      "text": "Collectibles",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/b/Collectibles-Art/bn_7000259855"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+    "landed": "https://www.ebay.com/",
+    "total": 31,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.ebay.com/ebaylive",
+      "x": 73,
+      "y": 60.5,
+      "text": "eBay Live",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/ebaylive"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/ebaylive/sellers/55lvkluxt6m",
+      "x": 603,
+      "y": 466.84375,
+      "text": "Curated Cards and Collectibles",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/ebaylive/sellers/55lvkluxt6m"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/ebaylive/events/PnBWOITTmL2pdXUo/stream",
+      "x": 595,
+      "y": 485.84375,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/ebaylive/events/PnBWOITTmL2pdXUo/stream"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ebay.com/?templateId=template_6886a086-68d5-47f0-a719-52a840beaced",
+      "x": 758.71875,
+      "y": 742.5546875,
+      "text": "Fashion",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ebay.com/?templateId=template_6886a086-68d5-47f0-a719-52a840beaced"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.etsy.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone",
+    "landed": "https://www.etsy.com/",
+    "total": 12,
+    "covered": 1,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.etsy.com/?ref=lgo",
+      "x": 61,
+      "y": 36,
+      "text": "Etsy",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.etsy.com/?ref=lgo"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.etsy.com/featured/hub/gifts?ref=gift_global_nav",
+      "x": 193.671875,
+      "y": 82,
+      "text": "Gifts",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.etsy.com/featured/hub/gifts?ref=gift_global_nav"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.etsy.com/featured/hub/fashion-favorites?ref=contentful_promo_cat_nav-5",
+      "x": 642.515625,
+      "y": 82,
+      "text": "Fashion Finds",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.etsy.com/featured/hub/fashion-favorites?ref=contentful_promo_cat_nav-5"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.etsy.com/giftcards?ref=contentful_promo_cat_nav-9",
+      "x": 1022.875,
+      "y": 82,
+      "text": "Gift Cards",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.etsy.com/giftcards?ref=contentful_promo_cat_nav-9"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "etsy.com",
+    "landed": "https://www.etsy.com/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.ikea.com/us/en/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Shop Affordable Home Furnishings & Home Goods - IKEA",
+    "landed": "https://www.ikea.com/us/en/",
+    "total": 19,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.ikea.com/us/en/new/new-products/",
+      "x": 524.5625,
+      "y": 24,
+      "text": "Shop new arrivals",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/new/new-products/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/ideas/",
+      "x": 418.796875,
+      "y": 92.9921875,
+      "text": "Design & ideas",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/ideas/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/favorites/",
+      "x": 1164,
+      "y": 93,
+      "text": "Favorites",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/favorites/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/cat/sofas-armchairs-700640/",
+      "x": 706.78125,
+      "y": 170,
+      "text": "Sofas & armchairs",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/cat/sofas-armchairs-700640/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Shop Affordable Home Furnishings & Home Goods - IKEA",
+    "landed": "https://www.ikea.com/us/en/",
+    "total": 5,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.ikea.com/us/en/cat/cookware-tableware-kt001/",
+      "x": 105,
+      "y": 61.390625,
+      "text": "Holiday hosting? This year, your kitchen will shin",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/cat/cookware-tableware-kt001/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/cat/dining-furniture-700417/",
+      "x": 326,
+      "y": 294.2109375,
+      "text": "Dining furniture for cozy gatherings",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/cat/dining-furniture-700417/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/cat/dinnerware-18860/?showcasedProducts=20600609#product-list-skip",
+      "x": 579,
+      "y": 294.2109375,
+      "text": "Dinnerware for every budget",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/cat/dinnerware-18860/?showcasedProducts=20600609#product-list-skip"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.ikea.com/us/en/cat/roasting-oven-dishes-700828/#product-list-skip",
+      "x": 832,
+      "y": 294.2109375,
+      "text": "Roasting and oven dishes for the feast",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.ikea.com/us/en/cat/roasting-oven-dishes-700828/#product-list-skip"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": "Ok"
+ },
+ {
+  "site": "https://store.steampowered.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Welcome to Steam",
+    "landed": "https://store.steampowered.com/",
+    "total": 8,
+    "covered": 1,
+    "pseudo": 2,
+    "clicks": [
+     {
+      "href": "https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_seasonalsale__global-header",
+      "x": 1128.75,
+      "y": 18,
+      "text": "sign in",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_seasonalsale__global-header"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://store.steampowered.com/about/?snr=1_4_seasonalsale__global-header",
+      "x": 443.84375,
+      "y": 34,
+      "text": "About",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/about/?snr=1_4_seasonalsale__global-header"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://help.steampowered.com/en/",
+      "x": 513.28125,
+      "y": 34,
+      "text": "SUPPORT",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://help.steampowered.com/en/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://steamcommunity.com/",
+      "x": 330.21875,
+      "y": 36.25,
+      "text": "COMMUNITY",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://steamcommunity.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Welcome to Steam",
+    "landed": "https://store.steampowered.com/",
+    "total": 26,
+    "covered": 14,
+    "pseudo": 23,
+    "clicks": [
+     {
+      "href": "https://store.steampowered.com/sale/special_deals?snr=1_4_seasonalsale_",
+      "x": 1133.3125,
+      "y": 110.296875,
+      "text": "See All",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/sale/special_deals?snr=1_4_seasonalsale_"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://store.steampowered.com/app/2369390/Far_Cry_6/?snr=1_4_seasonalsale__635",
+      "x": 864.328125,
+      "y": 299.6484375,
+      "text": "-90%$59.99$5.99Live",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/app/2369390/Far_Cry_6/?snr=1_4_seasonalsale__635"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://store.steampowered.com/app/2479810/Gray_Zone_Warfare/?snr=1_4_seasonalsale__617",
+      "x": 671,
+      "y": 598.9453125,
+      "text": "-33%$39.99$26.79Live",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/app/2479810/Gray_Zone_Warfare/?snr=1_4_seasonalsale__617"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://store.steampowered.com/app/3949040/RV_There_Yet/?snr=1_4_seasonalsale__617",
+      "x": 373,
+      "y": 802.8359375,
+      "text": "-40%$7.99$4.79",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://store.steampowered.com/app/3949040/RV_There_Yet/?snr=1_4_seasonalsale__617"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.imdb.com/chart/top/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Human Verification",
+    "landed": "https://www.imdb.com/chart/top/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   },
+   {
+    "scrolled": true,
+    "title": "Human Verification",
+    "landed": "https://www.imdb.com/chart/top/",
+    "total": 0,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": []
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://html.duckduckgo.com/html/?q=firefox+extensions",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "firefox extensions at DuckDuckGo",
+    "landed": "https://html.duckduckgo.com/html/?q=firefox+extensions",
+    "total": 24,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://html.duckduckgo.com/html/",
+      "x": 25,
+      "y": 39,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://html.duckduckgo.com/html/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Faddons.mozilla.org%2Fen%2DUS%2Ffirefox%2Fextensions%2F&rut=5b77366a9a6f1909f025e9234885737671c70a49d2012b3f176307f7acb0bec2",
+      "x": 137,
+      "y": 146.5625,
+      "text": "Extensions - Add-ons for Firefox (en-US)",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Faddons.mozilla.org%2Fen%2DUS%2Ffirefox%2Fextensions%2F&rut=5b77366a9a6f1909f025e9234885737671c70a49d2012b3f176307f7acb0bec2"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Faddons.mozilla.org%2Fen%2DUS%2Ffirefox%2F&rut=2b0bb59265610d1c32d819ff639e4189136707546b5175230ad045f08e7ff4ce",
+      "x": 137,
+      "y": 439.28125,
+      "text": "Add-ons for Firefox (en-US) - Mozilla",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Faddons.mozilla.org%2Fen%2DUS%2Ffirefox%2F&rut=2b0bb59265610d1c32d819ff639e4189136707546b5175230ad045f08e7ff4ce"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_recommended_Mozilla_WebExtensions&rut=74a0736a44e68028ab33ac8e45ddbf1557c4feb8a055f7707fe56206350628c9",
+      "x": 137,
+      "y": 711.125,
+      "text": "List of recommended Mozilla WebExtensions - Wikipe",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_recommended_Mozilla_WebExtensions&rut=74a0736a44e68028ab33ac8e45ddbf1557c4feb8a055f7707fe56206350628c9"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "firefox extensions at DuckDuckGo",
+    "landed": "https://html.duckduckgo.com/html/?q=firefox+extensions",
+    "total": 21,
+    "covered": 2,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.wikihow.com%2FInstall%2DFirefox%2DExtensions&rut=40e304572c4959a69a39375dcb49f81d0c047ae622fff9948fae55899fb98a14",
+      "x": 137,
+      "y": 51.421875,
+      "text": "How to Find & Install Firefox Extensions - wikiHow",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.wikihow.com%2FInstall%2DFirefox%2DExtensions&rut=40e304572c4959a69a39375dcb49f81d0c047ae622fff9948fae55899fb98a14"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fsupport.mozilla.org%2Fen%2DUS%2Fkb%2Frecommended%2Dextensions%2Dprogram&rut=9a972b4a246a5fcd531222e43b1f9392073271a046f5b2880fa66c5a8ac7d299",
+      "x": 137,
+      "y": 197.78125,
+      "text": "Recommended Extensions program | Firefox Help - Mo",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fsupport.mozilla.org%2Fen%2DUS%2Fkb%2Frecommended%2Dextensions%2Dprogram&rut=9a972b4a246a5fcd531222e43b1f9392073271a046f5b2880fa66c5a8ac7d299"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.lifewire.com%2Fbest%2Dfirefox%2Dextensions%2D11736467&rut=eec75f7b377d51e2f7949fa2eb590e72613ccc10a504694917d3c9b202ce58fd",
+      "x": 137,
+      "y": 532.25,
+      "text": "Our 20 Favorite Firefox Extensions - Lifewire",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.lifewire.com%2Fbest%2Dfirefox%2Dextensions%2D11736467&rut=eec75f7b377d51e2f7949fa2eb590e72613ccc10a504694917d3c9b202ce58fd"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://duckduckgo.com/l/?uddg=https%3A%2F%2Flifehacker.com%2Fthe%2Dbest%2Dfirefox%2Dextensions%2Deveryone%2Dshould%2Duse%2D1849784170&rut=9ef29ba35add62e5d849dd01fd5c13f24b48f63a0d37453f42a0623941a22352",
+      "x": 137,
+      "y": 657.734375,
+      "text": "The Best Firefox Extensions Everyone Should Use - ",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://duckduckgo.com/l/?uddg=https%3A%2F%2Flifehacker.com%2Fthe%2Dbest%2Dfirefox%2Dextensions%2Deveryone%2Dshould%2Duse%2D1849784170&rut=9ef29ba35add62e5d849dd01fd5c13f24b48f63a0d37453f42a0623941a22352"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.bing.com/search?q=firefox+extensions",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "firefox extensions - Search",
+    "landed": "https://www.bing.com/search?q=firefox+extensions",
+    "total": 33,
+    "covered": 4,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.bing.com/?FORM=Z9FD1",
+      "x": 47,
+      "y": 46,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/?FORM=Z9FD1"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=24be57ccf451c8ebb16e6e6699b6db413f09c5c109312a908159d64428ef3c80JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3Nob3AvdG9waWNzP3E9ZmlyZWZveCtleHRlbnNpb25zJkZPUk09U0hPUFRC&ntb=1",
+      "x": 662.796875,
+      "y": 99,
+      "text": "Shopping",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=24be57ccf451c8ebb16e6e6699b6db413f09c5c109312a908159d64428ef3c80JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3Nob3AvdG9waWNzP3E9ZmlyZWZveCtleHRlbnNpb25zJkZPUk09U0hPUFRC"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=24be57ccf451c8ebb16e6e6699b6db413f09c5c109312a908159d64428ef3c80JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3Nob3AvdG9waWNzP3E9ZmlyZWZveCtleHRlbnNpb25zJkZPUk09U0hPUFRC"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=5f5258763f81c4d4a43f06b237b76e24a78c0c9dfdecc911c3f9f07f475794b3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L2Jvb2ttYXJrcy8&ntb=1",
+      "x": 185,
+      "y": 413,
+      "text": "Bookmarks",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=5f5258763f81c4d4a43f06b237b76e24a78c0c9dfdecc911c3f9f07f475794b3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L2Jvb2ttYXJrcy8"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=5f5258763f81c4d4a43f06b237b76e24a78c0c9dfdecc911c3f9f07f475794b3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L2Jvb2ttYXJrcy8"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=3ebf03e4214bcb1257a73ce3a0534b5661fc8a1b29c02733c6a40f3d9bb35b87JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L3NlYXJjaC10b29scy8&ntb=1",
+      "x": 533,
+      "y": 573,
+      "text": "Search Tools",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=3ebf03e4214bcb1257a73ce3a0534b5661fc8a1b29c02733c6a40f3d9bb35b87JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L3NlYXJjaC10b29scy8"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=3ebf03e4214bcb1257a73ce3a0534b5661fc8a1b29c02733c6a40f3d9bb35b87JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1aHR0cHM6Ly9hZGRvbnMubW96aWxsYS5vcmcvZW4tVVMvZmlyZWZveC9leHRlbnNpb25zL2NhdGVnb3J5L3NlYXJjaC10b29scy8"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "firefox extensions - Search",
+    "landed": "https://www.bing.com/search?q=firefox+extensions",
+    "total": 15,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=6c758cf00eb4a1917f9a6d6547a68a2c58e182fc6f6c7d9d6e27b182f3873b88JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPUZpcmVmb3grYWRkK29ucytvZmZpY2lhbCtzaXRlJkZPUk09UjVGRA&ntb=1",
+      "x": 893,
+      "y": 99,
+      "text": "Firefox add ons official site",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=6c758cf00eb4a1917f9a6d6547a68a2c58e182fc6f6c7d9d6e27b182f3873b88JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPUZpcmVmb3grYWRkK29ucytvZmZpY2lhbCtzaXRlJkZPUk09UjVGRA"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=6c758cf00eb4a1917f9a6d6547a68a2c58e182fc6f6c7d9d6e27b182f3873b88JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPUZpcmVmb3grYWRkK29ucytvZmZpY2lhbCtzaXRlJkZPUk09UjVGRA"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=73f5c696f619830e826f3d0be375aa5561544e646b4e1bf32cd1977f709c4e32JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPWRpc2FibGUrRmlyZWZveCtleHRlbnNpb25zJkZPUk09UjVGRDI&ntb=1",
+      "x": 893,
+      "y": 219,
+      "text": "disable Firefox extensions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=73f5c696f619830e826f3d0be375aa5561544e646b4e1bf32cd1977f709c4e32JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPWRpc2FibGUrRmlyZWZveCtleHRlbnNpb25zJkZPUk09UjVGRDI"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=73f5c696f619830e826f3d0be375aa5561544e646b4e1bf32cd1977f709c4e32JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPWRpc2FibGUrRmlyZWZveCtleHRlbnNpb25zJkZPUk09UjVGRDI"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=b44394a547cbba680a0835db7928f7cc06660126a466ad1a710cdc03644b6878JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPXZwbitleHRlbnNpb24rZm9yK0ZpcmVmb3gmRk9STT1SNUZENQ&ntb=1",
+      "x": 893,
+      "y": 399,
+      "text": "vpn extension for Firefox",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=b44394a547cbba680a0835db7928f7cc06660126a466ad1a710cdc03644b6878JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPXZwbitleHRlbnNpb24rZm9yK0ZpcmVmb3gmRk9STT1SNUZENQ"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=b44394a547cbba680a0835db7928f7cc06660126a466ad1a710cdc03644b6878JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPXZwbitleHRlbnNpb24rZm9yK0ZpcmVmb3gmRk9STT1SNUZENQ"
+     },
+     {
+      "href": "https://www.bing.com/ck/a?!&&p=a04f6e29a012a718f83fa4a59ab5b3e39aa8026c5c54dcbad29941509ff6baaaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPW11c3QraGF2ZStGaXJlZm94K2V4dGVuc2lvbnMmRk9STT1SNUZENw&ntb=1",
+      "x": 893,
+      "y": 519,
+      "text": "must have Firefox extensions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.bing.com/ck/a?!&&p=a04f6e29a012a718f83fa4a59ab5b3e39aa8026c5c54dcbad29941509ff6baaaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPW11c3QraGF2ZStGaXJlZm94K2V4dGVuc2lvbnMmRk9STT1SNUZENw"
+      ],
+      "menu": "suppressed",
+      "ok": false,
+      "result": "opened different URL: https://www.bing.com/ck/a?!&&p=a04f6e29a012a718f83fa4a59ab5b3e39aa8026c5c54dcbad29941509ff6baaaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3cde9221-49ff-652d-00e7-85c6485264e4&u=a1L3NlYXJjaD9xPW11c3QraGF2ZStGaXJlZm94K2V4dGVuc2lvbnMmRk9STT1SNUZENw"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.npmjs.com/package/puppeteer",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "puppeteer - npm",
+    "landed": "https://www.npmjs.com/package/puppeteer",
+    "total": 24,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/",
+      "x": 865.875,
+      "y": 29.59375,
+      "text": "Learn how to prepare →",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.npmjs.com/login",
+      "x": 1201.84375,
+      "y": 172.1875,
+      "text": "Sign In",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.npmjs.com/login"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.npmjs.com/package/puppeteer?activeTab=code",
+      "x": 278.921875,
+      "y": 361.78125,
+      "text": "Code Beta",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.npmjs.com/package/puppeteer?activeTab=code"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://pptr.dev/docs",
+      "x": 81,
+      "y": 659.03125,
+      "text": "Get started",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://pptr.dev/docs"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "puppeteer - npm",
+    "landed": "https://www.npmjs.com/package/puppeteer",
+    "total": 9,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.npmjs.com/~mathias",
+      "x": 871.65625,
+      "y": 75.3125,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.npmjs.com/~mathias"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://socket.dev/npm/package/puppeteer",
+      "x": 875.65625,
+      "y": 134.8984375,
+      "text": "Analyze security with Socket",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://socket.dev/npm/package/puppeteer"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://snyk.io/advisor/npm-package/puppeteer",
+      "x": 875.65625,
+      "y": 246.4609375,
+      "text": "View package health",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://snyk.io/advisor/npm-package/puppeteer"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://npmgraph.js.org/?q=puppeteer",
+      "x": 875.65625,
+      "y": 302.2421875,
+      "text": "Explore dependencies",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://npmgraph.js.org/?q=puppeteer"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://docs.python.org/3/library/index.html",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "The Python standard library — Python 3.14.8 documentation",
+    "landed": "https://docs.python.org/3/library/index.html",
+    "total": 22,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.python.org/",
+      "x": 68.40625,
+      "y": 29.375,
+      "text": "Python",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.python.org/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/py-modindex.html",
+      "x": 1177.4375,
+      "y": 29.375,
+      "text": "modules",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/py-modindex.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/improve-page.html?pagetitle=The+Python+standard+library&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Findex.html&pagesource=library%2Findex.rst",
+      "x": 61,
+      "y": 339.59375,
+      "text": "Improve this page",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/improve-page.html?pagetitle=The+Python+standard+library&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Findex.html&pagesource=library%2Findex.rst"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/library/string.html",
+      "x": 420.1875,
+      "y": 776.390625,
+      "text": "string — Common string operations",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/library/string.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "The Python standard library — Python 3.14.8 documentation",
+    "landed": "https://docs.python.org/3/library/index.html",
+    "total": 38,
+    "covered": 1,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://docs.python.org/3/library/datatypes.html",
+      "x": 400.1875,
+      "y": 15.546875,
+      "text": "Data Types",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/library/datatypes.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/bugs.html",
+      "x": 61,
+      "y": 222.4375,
+      "text": "Report a bug",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/bugs.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/library/enum.html",
+      "x": 420.1875,
+      "y": 388.078125,
+      "text": "enum — Support for enumerations",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/library/enum.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://docs.python.org/3/library/statistics.html",
+      "x": 420.1875,
+      "y": 627.171875,
+      "text": "statistics — Mathematical statistics functions",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://docs.python.org/3/library/statistics.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://shoelace.style/components/button",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Button",
+    "landed": "https://shoelace.style/components/button",
+    "total": 28,
+    "covered": 22,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://webawesome.com/docs/resources/migrating-from-shoelace?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 437,
+      "y": 583.296875,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/resources/migrating-from-shoelace?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 673.890625,
+      "y": 309.8125,
+      "text": "Web Awesome",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/docs/components/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 785.9375,
+      "y": 416.40625,
+      "text": "components",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/components/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/docs/utilities/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 533.390625,
+      "y": 445.203125,
+      "text": "utilities",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/utilities/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Button",
+    "landed": "https://shoelace.style/components/button",
+    "total": 28,
+    "covered": 22,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://webawesome.com/docs/resources/migrating-from-shoelace?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 437,
+      "y": 583.296875,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/resources/migrating-from-shoelace?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 673.890625,
+      "y": 309.8125,
+      "text": "Web Awesome",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/docs/components/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 785.9375,
+      "y": 416.40625,
+      "text": "components",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/components/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://webawesome.com/docs/utilities/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog",
+      "x": 533.390625,
+      "y": 445.203125,
+      "text": "utilities",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://webawesome.com/docs/utilities/?utm_source=shoelace-docs&utm_medium=web&utm_campaign=wa-dialog"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://m3.material.io/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Material Design 3 - Google's latest open source design system",
+    "landed": "https://m3.material.io/",
+    "total": 9,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://m3.material.io/search.html",
+      "x": 41,
+      "y": 46,
+      "text": "search",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/search.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/get-started",
+      "x": 29,
+      "y": 198,
+      "text": "apps Get started",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/get-started"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/foundations",
+      "x": 29,
+      "y": 342,
+      "text": "book Foundations",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/foundations"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/components",
+      "x": 29,
+      "y": 486,
+      "text": "add_circle Components",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/components"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Material Design 3 - Google's latest open source design system",
+    "landed": "https://m3.material.io/",
+    "total": 9,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://m3.material.io/search.html",
+      "x": 41,
+      "y": 46,
+      "text": "search",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/search.html"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/get-started",
+      "x": 29,
+      "y": 198,
+      "text": "apps Get started",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/get-started"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/foundations",
+      "x": 29,
+      "y": 342,
+      "text": "book Foundations",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/foundations"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://m3.material.io/components",
+      "x": 29,
+      "y": 486,
+      "text": "add_circle Components",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://m3.material.io/components"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.salesforce.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Salesforce: The #1 Agentic AI CRM",
+    "landed": "https://www.salesforce.com/",
+    "total": 6,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.salesforce.com/company/contact-us/?d=cta-header-9",
+      "x": 894.828125,
+      "y": 48,
+      "text": "Contact Us",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/company/contact-us/?d=cta-header-9"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://iis.digital.salesforce.com/services/auth/login?client_id=BbJrTZE7ZEre8FIZJt1gWkJ8x5ps6wNWheOWdV1qKsaM6rlrygniAO2KQp0yZiwi0YebkVaRnS3fvJvY1nqKH&offerId=free-trial-00005820&offerType=free-trial&locale=EN_US&offerStatus=PUBLISHED",
+      "x": 1127.21875,
+      "y": 48,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://iis.digital.salesforce.com/services/auth/login?client_id=BbJrTZE7ZEre8FIZJt1gWkJ8x5ps6wNWheOWdV1qKsaM6rlrygniAO2KQp0yZiwi0YebkVaRnS3fvJvY1nqKH&offerId=free-trial-00005820&offerType=free-trial&locale=EN_US&offerStatus=PUBLISHED"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.salesforce.com/",
+      "x": 65,
+      "y": 48.0078125,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.salesforce.com/small-business/demos/smb-overview/?d=pb",
+      "x": 667.703125,
+      "y": 500,
+      "text": "Watch demo",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/small-business/demos/smb-overview/?d=pb"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Salesforce: The #1 Agentic AI CRM",
+    "landed": "https://www.salesforce.com/",
+    "total": 4,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.salesforce.com/company/contact-us/?d=cta-header-9",
+      "x": 894.828125,
+      "y": 48,
+      "text": "Contact Us",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/company/contact-us/?d=cta-header-9"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://iis.digital.salesforce.com/services/auth/login?client_id=BbJrTZE7ZEre8FIZJt1gWkJ8x5ps6wNWheOWdV1qKsaM6rlrygniAO2KQp0yZiwi0YebkVaRnS3fvJvY1nqKH&offerId=free-trial-00005820&offerType=free-trial&locale=EN_US&offerStatus=PUBLISHED",
+      "x": 1127.21875,
+      "y": 48,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://iis.digital.salesforce.com/services/auth/login?client_id=BbJrTZE7ZEre8FIZJt1gWkJ8x5ps6wNWheOWdV1qKsaM6rlrygniAO2KQp0yZiwi0YebkVaRnS3fvJvY1nqKH&offerId=free-trial-00005820&offerType=free-trial&locale=EN_US&offerStatus=PUBLISHED"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.salesforce.com/",
+      "x": 65,
+      "y": 48.0078125,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.salesforce.com/company/legal/privacy/",
+      "x": 1026.796875,
+      "y": 839,
+      "text": "privacy policy",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.salesforce.com/company/legal/privacy/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.apple.com/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Apple",
+    "landed": "https://www.apple.com/",
+    "total": 17,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.apple.com/",
+      "x": 157,
+      "y": 22,
+      "text": "Apple",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/iphone/",
+      "x": 398.609375,
+      "y": 22,
+      "text": "iPhone",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/iphone/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/tv-home/",
+      "x": 689.234375,
+      "y": 22,
+      "text": "TV & Home",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/tv-home/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/us/search",
+      "x": 1073.34375,
+      "y": 22,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/us/search"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Apple",
+    "landed": "https://www.apple.com/",
+    "total": 14,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.apple.com/",
+      "x": 157,
+      "y": 22,
+      "text": "Apple",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/ipad/",
+      "x": 334.46875,
+      "y": 22,
+      "text": "iPad",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/ipad/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/airpods/",
+      "x": 611.078125,
+      "y": 22,
+      "text": "AirPods",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/airpods/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+      "x": 901.53125,
+      "y": 22,
+      "text": "Accessories",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.apple.com/us/shop/goto/buy_accessories"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.microsoft.com/en-us/",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "landed": "https://www.microsoft.com/en-us/",
+    "total": 11,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.microsoft.com/",
+      "x": 89,
+      "y": 27,
+      "text": "",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp",
+      "x": 335.6328125,
+      "y": 27,
+      "text": "Azure",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.microsoft.com/surface",
+      "x": 526.59375,
+      "y": 27,
+      "text": "Surface",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/surface"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.microsoft.com/en-us/store/b/business",
+      "x": 695.671875,
+      "y": 27,
+      "text": "Small Business",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/en-us/store/b/business"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "landed": "https://www.microsoft.com/en-us/",
+    "total": 7,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.microsoft.com/en-us/store/b/shop-all-microsoft-surface?icid=MSCOM_PQL_Surface",
+      "x": 198.65625,
+      "y": 218,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/en-us/store/b/shop-all-microsoft-surface?icid=MSCOM_PQL_Surface"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.microsoft.com/EN-US/microsoft-365/compare-all-microsoft-365-products?icid=MSCOM_PQL_M365",
+      "x": 336.375,
+      "y": 218,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/EN-US/microsoft-365/compare-all-microsoft-365-products?icid=MSCOM_PQL_M365"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=MSCOM_PQL_Xbox",
+      "x": 518.171875,
+      "y": 218,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/en-us/store/b/xbox?icid=MSCOM_PQL_Xbox"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=MSCOM_PQL_Accessories",
+      "x": 813.15625,
+      "y": 218,
+      "text": "",
+      "shadow": true,
+      "svg": false,
+      "created": [
+       "https://www.microsoft.com/en-us/store/b/accessories?icid=MSCOM_PQL_Accessories"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
+ },
+ {
+  "site": "https://www.craigslist.org/about/sites",
+  "passes": [
+   {
+    "scrolled": false,
+    "title": "craigslist > sites",
+    "landed": "https://www.craigslist.org/about/sites",
+    "total": 37,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "http://www.naturalearthdata.com/",
+      "x": 1132.25,
+      "y": 554.890625,
+      "text": "Natural Earth",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "http://www.naturalearthdata.com/"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/dothan",
+      "x": 79,
+      "y": 769.78125,
+      "text": "dothan",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/dothan"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/charleston",
+      "x": 979.75,
+      "y": 811.171875,
+      "text": "charleston",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/charleston"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/montgomery",
+      "x": 79,
+      "y": 844.78125,
+      "text": "montgomery",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/montgomery"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   },
+   {
+    "scrolled": true,
+    "title": "craigslist > sites",
+    "landed": "https://www.craigslist.org/about/sites",
+    "total": 166,
+    "covered": 0,
+    "pseudo": 0,
+    "clicks": [
+     {
+      "href": "https://www.craigslist.org/area/chattanooga",
+      "x": 979.75,
+      "y": 8.953125,
+      "text": "chattanooga",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/chattanooga"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/collegestation",
+      "x": 979.75,
+      "y": 260.34375,
+      "text": "college station",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/collegestation"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/monterey",
+      "x": 79,
+      "y": 455.34375,
+      "text": "monterey bay",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/monterey"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     },
+     {
+      "href": "https://www.craigslist.org/area/syracuse",
+      "x": 679.5,
+      "y": 643.125,
+      "text": "syracuse",
+      "shadow": false,
+      "svg": false,
+      "created": [
+       "https://www.craigslist.org/area/syracuse"
+      ],
+      "menu": "suppressed",
+      "ok": true,
+      "result": "ok"
+     }
+    ]
+   }
+  ],
+  "error": null,
+  "consent": null
  }
 ]

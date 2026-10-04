@@ -1,0 +1,238 @@
+ORDERING (vs native middle-click)
+  sequential: native = index.html* t/1.html t/2.html t/3.html
+     hedworth-ff-0.0.7: index.html* t/3.html t/2.html t/1.html
+  rapid: native = index.html* t/1.html t/2.html t/3.html t/4.html t/5.html
+     hedworth-ff-0.0.7: index.html* t/5.html t/4.html t/3.html t/2.html t/1.html
+  mixed_with_middle_clicks: native = index.html* t/1.html t/2.html t/3.html t/4.html
+     bgdam-ff-0.0.9: index.html* t/2.html t/4.html t/1.html t/3.html
+     hedworth-ff-0.0.7: index.html* t/4.html t/2.html t/1.html t/3.html
+     hedworth-chrome-0.1.1: index.html* t/1.html t/3.html t/2.html t/4.html
+     bgtab-chrome-1.5: index.html* t/2.html t/4.html t/1.html t/3.html
+  switch_away_and_back: native = index.html* t/3.html t/4.html t/1.html t/2.html
+     hedworth-ff-0.0.7: index.html* t/4.html t/3.html t/2.html t/1.html
+     hedworth-chrome-0.1.1: index.html* t/1.html t/2.html t/3.html t/4.html
+  close_child_then_open: native = index.html* t/4.html t/1.html t/3.html
+     bgdam-ff-0.0.9: index.html* t/1.html t/3.html t/4.html
+     hedworth-ff-0.0.7: index.html* t/4.html t/3.html t/1.html
+     hedworth-chrome-0.1.1: index.html* t/1.html t/3.html t/4.html
+     bgtab-chrome-1.5: index.html* t/1.html t/3.html t/4.html
+  unrelated_tabs_to_right: native = index.html* t/1.html t/2.html about:robots about:mozilla
+     hedworth-ff-0.0.7: index.html* t/2.html t/1.html about:robots about:mozilla
+  source_pinned: native = index.html*[pin] t/1.html t/2.html about:robots
+     hedworth-ff-0.0.7: index.html*[pin] t/2.html t/1.html about:robots
+  source_in_tab_group: native = about:robots index.html*[g] t/1.html[g] t/2.html[g]
+     hedworth-ff-0.0.7: about:robots index.html*[g] t/2.html[g] t/1.html[g]
+  source_tab_moved: native = t/1.html about:robots about:mozilla index.html* t/2.html
+  other_window_focused: native = index.html* t/1.html || about:blank*
+     bgdam-ff-0.0.9: index.html* || about:blank* t/1.html
+     hedworth-ff-0.0.7: index.html* || about:blank* t/1.html
+     rightlinks-ff-0.5b12: index.html* || about:blank* t/1.html
+     bgtab-chrome-1.5: index.html* || about:blank*
+  container_tab: native = index.html*[c1] t/1.html[c1]
+
+EDGE CASE FAILURES
+  [basic] plain link
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] relative href + <base>
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] href with surrounding whitespace
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] target=_blank rel=noopener
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] link wrapping an <img>
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] icon link: <svg><use> inside <a>
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+  [basic] stretched-link card (::after overlay)
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] link inside a modal <dialog>
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [basic] XHTML document (application/xhtml+xml)
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] child element stops propagation of every mouse/pointer event
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] page's window-level capture listener swallows mouse events (drag library)
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] carousel: preventDefault() on pointerdown (kills mousedown/mouseup)
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: native menu shown
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] slider: pointerdown preventDefault + setPointerCapture
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] link re-rendered on mousedown (React-style state change)
+     hedworth-ff-0.0.7: no tab opened
+     rightlinks-ff-0.5b12: no tab opened
+     hedworth-chrome-0.1.1: no tab opened
+  [page scripts] href rewritten on mousedown (search-result tracking)
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [page scripts] anti-right-click site (contextmenu blocked by page)
+     hedworth-ff-0.0.7: no tab opened
+  [page scripts] site shows its own custom context menu
+     bgdam-ff-0.0.9: site's own menu shown
+     hedworth-ff-0.0.7: no tab opened; site's own menu shown
+     hedworth-chrome-0.1.1: site's own menu shown
+  [page scripts] root element replaced after load
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] document.open()/write() after load
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [page scripts] page still loading (slow third-party script)
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+  [shadow DOM] open shadow root
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [shadow DOM] closed shadow root
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [shadow DOM] web component: slotted text inside shadow <a> (open)
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+  [shadow DOM] web component: slotted text inside shadow <a> (closed)
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [shadow DOM] shadow root nested in shadow root
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [link types] SVG <a href>
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [link types] SVG <a xlink:href>
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [link types] <area> in an image map
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [link types] nested links (inner one wins)
+     bgdam-ff-0.0.9: opened t/2.html,t/1.html
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [frames] same-origin iframe
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [frames] cross-origin iframe
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [frames] srcdoc iframe
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [frames] about:blank iframe filled by script
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [frames] sandboxed iframe
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [frames] srcdoc iframe nested in an iframe
+     bgdam-ff-0.0.9: no tab opened; native menu shown
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+  [mouse handling] held for 700ms before release
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     rightlinks-ff-0.5b12: no tab opened
+  [mouse handling] 3px hand jitter during click
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened
+  [seen on real sites] hover card closes on press, another link underneath (Wikipedia-style preview)
+     bgdam-ff-0.0.9: no tab opened
+     hedworth-ff-0.0.7: no tab opened
+     rightlinks-ff-0.5b12: no tab opened; native menu shown
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: opened t/2.html
+  [seen on real sites] link inside a popover (top layer)
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [seen on real sites] link inside a <details> <summary>
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+  [should keep normal menu] link covered by an invisible overlay (consent/scrim)
+     bgtab-chrome-1.5: opened t/1.html; normal menu suppressed
+  [should keep normal menu] javascript: link
+     bgdam-ff-0.0.9: normal menu suppressed
+     rightlinks-ff-0.5b12: normal menu suppressed
+  [should keep normal menu] href="#"
+     bgdam-ff-0.0.9: opened case/44.html#; normal menu suppressed
+     rightlinks-ff-0.5b12: opened case/44.html#; normal menu suppressed
+     hedworth-chrome-0.1.1: opened case/44.html#; normal menu suppressed
+     bgtab-chrome-1.5: opened case/44.html#; normal menu suppressed
+  [should keep normal menu] data: link
+     bgdam-ff-0.0.9: normal menu suppressed
+     rightlinks-ff-0.5b12: normal menu suppressed
+     bgtab-chrome-1.5: normal menu suppressed
+  [should keep normal menu] <a> without href (JS pseudo-link)
+     bgdam-ff-0.0.9: normal menu suppressed
+  [should keep normal menu] image that is not a link
+     rightlinks-ff-0.5b12: opened t/pixel.gif; normal menu suppressed
+  [should keep normal menu] canvas that is not a link
+     rightlinks-ff-0.5b12: opened blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/524c2ba3-96e0-4e59-b8fc-1f8706b1f872; normal menu suppressed
+  [should keep normal menu] link inside a rich-text editor (contenteditable)
+     bgdam-ff-0.0.9: opened t/1.html; normal menu suppressed
+     rightlinks-ff-0.5b12: opened t/1.html; normal menu suppressed
+     hedworth-chrome-0.1.1: opened t/1.html; normal menu suppressed
+     bgtab-chrome-1.5: opened t/1.html; normal menu suppressed
+  [should keep normal menu] right-drag 30px left, staying on a wide link (cancel)
+     bgdam-ff-0.0.9: opened t/1.html
+  [should keep normal menu] right-drag 30px up, staying on a tall link (cancel)
+     bgdam-ff-0.0.9: opened t/1.html
+  [false positives (site's own right-click)] canvas game using right mouse button
+     rightlinks-ff-0.5b12: site's menu blocked; opened blob:moz-extension://d25b0bc4-02da-460f-9414-2f6a785f0f4c/28c255c9-c4a5-4f1a-859a-2bee36cd093e
+  [false positives (site's own right-click)] image editor: image with its own right-click menu
+     rightlinks-ff-0.5b12: site's menu blocked; opened t/pixel.gif
+  [false positives (site's own right-click)] <a href="#"> used as a button, with its own menu
+     bgdam-ff-0.0.9: opened case/62.html#
+     rightlinks-ff-0.5b12: site's menu blocked
+     hedworth-chrome-0.1.1: opened case/62.html#
+     bgtab-chrome-1.5: opened case/62.html#
+  [false positives (site's own right-click)] <a href=javascript:> with its own menu
+     rightlinks-ff-0.5b12: site's menu blocked
+  [false positives (site's own right-click)] rich-text editor: link inside contenteditable with editor menu
+     bgdam-ff-0.0.9: opened t/1.html
+     rightlinks-ff-0.5b12: site's menu blocked; opened t/1.html
+     hedworth-chrome-0.1.1: opened t/1.html
+     bgtab-chrome-1.5: opened t/1.html
+  [false positives (site's own right-click)] page right-button handlers on a real link still receive mousedown/mouseup
+     hedworth-ff-0.0.7: no tab opened; native menu shown
+     bgtab-chrome-1.5: page never got mousedown,mouseup
+
+TOTALS
+  mine: edge 69/69, ordering 11/11, perf 1224ms (no ext: 1235ms)
+  bgdam-ff-0.0.9: edge 40/69, ordering 8/11, perf 3577ms (no ext: 1235ms)
+  hedworth-ff-0.0.7: edge 28/69, ordering 2/11, perf 3647ms (no ext: 1235ms)
+  rightlinks-ff-0.5b12: edge 44/69, ordering 10/11, perf 1236ms (no ext: 1235ms)
+  hedworth-chrome-0.1.1: edge 50/69, ordering 8/11, perf 1226ms (no ext: 1235ms)
+  bgtab-chrome-1.5: edge 42/69, ordering 8/11, perf 1235ms (no ext: 1235ms)

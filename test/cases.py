@@ -91,6 +91,17 @@ CASES = [
   dict(name="held for 700ms before release", group="mouse handling", action="hold", body='<a id=target href="/t/1.html">slow press</a>', expect="t/1.html"),
   dict(name="3px hand jitter during click", group="mouse handling", action="jitter", body='<a id=target href="/t/1.html">jittery</a>', expect="t/1.html"),
 
+  dict(name="hover card closes on press, another link underneath (Wikipedia-style preview)", group="seen on real sites",
+       body='<a id=under href="/t/2.html" style="display:block;width:300px;height:90px">underlying link</a><div id=card style="position:absolute;left:30px;top:30px;width:240px;height:50px;background:#fff;border:1px solid #333"><a id=target href="/t/1.html">preview card link</a></div><script>addEventListener("pointerdown", () => document.getElementById("card").remove(), true);</script>',
+       expect="t/1.html"),
+  dict(name="link inside a popover (top layer)", group="seen on real sites",
+       body='<div popover id=p><a id=target href="/t/1.html">popover link</a></div><script>document.getElementById("p").showPopover()</script>', expect="t/1.html"),
+  dict(name="link inside a <details> <summary>", group="seen on real sites",
+       body='<details open><summary><a id=target href="/t/1.html">summary link</a></summary>details body</details>', expect="t/1.html"),
+  dict(name="link covered by an invisible overlay (consent/scrim)", group="should keep normal menu",
+       body='<a id=target href="/t/1.html">covered link</a><div style="position:fixed;inset:0;background:transparent"></div>', expect=None),
+  dict(name="pointer-events:none link inside a clickable card", group="should keep normal menu",
+       body='<div class=box style="width:300px" onclick="location=\'/t/1.html\'"><a id=target href="/t/1.html" style="pointer-events:none">card title</a></div>', expect=None),
   # ---------- should NOT open ----------
   dict(name="javascript: link", group="should keep normal menu", body='<a id=target href="javascript:void(0)">js</a>', expect=None),
   dict(name='href="#"', group="should keep normal menu", body='<a id=target href="#">hash</a>', expect=None),

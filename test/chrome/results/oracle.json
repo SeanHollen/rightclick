@@ -355,15 +355,41 @@
    ],
    "menu": "unknown"
   },
+  "hover card closes on press, another link underneath (Wikipedia-style preview)": {
+   "ok": false,
+   "why": "no tab opened",
+   "tabs": [
+    "case/38.html*"
+   ],
+   "menu": "unknown"
+  },
+  "link inside a popover (top layer)": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/39.html*",
+    "t/1.html"
+   ],
+   "menu": "unknown"
+  },
+  "link inside a <details> <summary>": {
+   "ok": true,
+   "why": "",
+   "tabs": [
+    "case/40.html*",
+    "t/1.html"
+   ],
+   "menu": "unknown"
+  },
   "page right-button handlers on a real link still receive mousedown/mouseup": {
    "ok": false,
    "why": "page never got pointerdown,mousedown,pointerup,mouseup",
    "tabs": [
-    "case/63.html*",
+    "case/68.html*",
     "t/1.html"
    ],
    "menu": "unknown"
   }
  },
- "perf_ms": 1215.7000000476837
+ "perf_ms": 1199.3999999761581
 }

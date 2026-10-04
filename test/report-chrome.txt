@@ -1,0 +1,200 @@
+ORDERING (vs native middle-click)
+  sequential: native = index.html* t/1.html t/2.html t/3.html
+     verlane-1.0: index.html t/1.html t/2.html t/3.html*
+  rapid: native = index.html* t/1.html t/2.html t/3.html t/4.html t/5.html
+     verlane-1.0: index.html t/1.html t/2.html t/3.html t/4.html t/5.html*
+  mixed_with_middle_clicks: native = index.html* t/1.html t/2.html t/3.html t/4.html
+     verlane-1.0: index.html t/2.html t/4.html* t/3.html t/1.html
+  switch_away_and_back: native = index.html* t/1.html t/2.html t/3.html t/4.html
+     bgtab-chrome-1.5: index.html* t/3.html t/4.html t/1.html t/2.html
+     verlane-1.0: index.html t/3.html t/4.html* t/1.html t/2.html
+  close_child_then_open: native = index.html* t/1.html t/3.html t/4.html
+     verlane-1.0: index.html t/1.html t/3.html t/4.html*
+  unrelated_tabs_to_right: native = index.html* t/1.html t/2.html about:blank#r1 about:blank#r2
+     bgtab-chrome-1.5: index.html* about:blank#r1 about:blank#r2 t/1.html t/2.html
+     verlane-1.0: index.html t/1.html t/2.html* about:blank#r1 about:blank#r2
+  source_pinned: native = index.html*[pin] t/1.html t/2.html about:blank#r1
+     bgtab-chrome-1.5: index.html*[pin] about:blank#r1 t/1.html t/2.html
+     verlane-1.0: index.html[pin] t/1.html t/2.html* about:blank#r1
+  source_in_tab_group: native = index.html*[g] t/1.html[g] t/2.html[g] about:blank#r1
+     hedworth-chrome-0.1.1: index.html*[g] t/1.html t/2.html about:blank#r1
+     bgtab-chrome-1.5: index.html*[g] about:blank#r1 t/1.html t/2.html
+     verlane-1.0: index.html[g] t/1.html t/2.html* about:blank#r1
+  source_tab_moved: native = t/1.html about:blank#r1 about:blank#r2 index.html* t/2.html
+     bgtab-chrome-1.5: about:blank#r1 about:blank#r2 t/1.html index.html* t/2.html
+     verlane-1.0: t/1.html t/2.html* about:blank#r1 about:blank#r2 index.html
+  source_navigated_then_open: native = index.html?again* t/1.html t/2.html t/3.html
+     verlane-1.0: index.html?again t/1.html t/2.html t/3.html*
+  child_moved_away_then_open: native = index.html* t/2.html t/3.html about:blank#r1 t/1.html
+     hedworth-chrome-0.1.1: index.html* t/2.html about:blank#r1 t/1.html t/3.html
+     bgtab-chrome-1.5: index.html* about:blank#r1 t/2.html t/1.html t/3.html
+     verlane-1.0: index.html t/2.html t/3.html* about:blank#r1 t/1.html
+  unrelated_moved_between_children: native = index.html* t/1.html t/3.html about:blank#r1 t/2.html
+     hedworth-chrome-0.1.1: index.html* t/1.html about:blank#r1 t/2.html t/3.html
+     bgtab-chrome-1.5: index.html* t/1.html about:blank#r1 t/2.html t/3.html
+     verlane-1.0: index.html t/1.html about:blank#r1 t/2.html t/3.html*
+  other_window_focused: native = index.html* t/1.html || about:blank#w2*
+     bgtab-chrome-1.5: index.html* || about:blank#w2*
+     verlane-1.0: index.html* || about:blank#w2 t/1.html*
+
+EDGE CASE FAILURES
+  [basic] plain link
+     bgtab-chrome-1.5: opened t/1.html,t/1.html
+     verlane-1.0: opened t/1.html*
+  [basic] relative href + <base>
+     verlane-1.0: opened t/1.html*
+  [basic] href with surrounding whitespace
+     verlane-1.0: opened t/1.html*
+  [basic] target=_blank rel=noopener
+     verlane-1.0: opened t/1.html*
+  [basic] link wrapping an <img>
+     verlane-1.0: opened t/1.html*
+  [basic] icon link: <svg><use> inside <a>
+     verlane-1.0: opened t/1.html*
+  [basic] stretched-link card (::after overlay)
+     verlane-1.0: opened t/1.html*
+  [basic] link inside a modal <dialog>
+     verlane-1.0: opened t/1.html*
+  [basic] XHTML document (application/xhtml+xml)
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: opened t/1.html*
+  [page scripts] child element stops propagation of every mouse/pointer event
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [page scripts] page's window-level capture listener swallows mouse events (drag library)
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: opened t/1.html*
+  [page scripts] carousel: preventDefault() on pointerdown (kills mousedown/mouseup)
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: opened t/1.html*
+  [page scripts] slider: pointerdown preventDefault + setPointerCapture
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [page scripts] link re-rendered on mousedown (React-style state change)
+     hedworth-chrome-0.1.1: no tab opened
+     verlane-1.0: opened t/1.html*
+  [page scripts] href rewritten on mousedown (search-result tracking)
+     verlane-1.0: opened t/1.html*
+  [page scripts] anti-right-click site (contextmenu blocked by page)
+     verlane-1.0: opened t/1.html*
+  [page scripts] site shows its own custom context menu
+     hedworth-chrome-0.1.1: site's own menu shown
+     verlane-1.0: opened t/1.html*; site's own menu shown
+  [page scripts] link added 300ms after load (SPA / infinite scroll)
+     verlane-1.0: opened t/1.html*
+  [page scripts] root element replaced after load
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: opened t/1.html*
+  [page scripts] document.open()/write() after load
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened
+     verlane-1.0: no tab opened
+  [page scripts] page still loading (slow third-party script)
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [shadow DOM] open shadow root
+     verlane-1.0: no tab opened; native menu shown
+  [shadow DOM] closed shadow root
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [shadow DOM] web component: slotted text inside shadow <a> (open)
+     verlane-1.0: no tab opened; native menu shown
+  [shadow DOM] web component: slotted text inside shadow <a> (closed)
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [shadow DOM] shadow root nested in shadow root
+     verlane-1.0: no tab opened; native menu shown
+  [link types] SVG <a href>
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened
+  [link types] SVG <a xlink:href>
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened
+  [link types] <area> in an image map
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [link types] nested links (inner one wins)
+     verlane-1.0: opened t/1.html*
+  [frames] same-origin iframe
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [frames] cross-origin iframe
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [frames] srcdoc iframe
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [frames] about:blank iframe filled by script
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: no tab opened
+     verlane-1.0: no tab opened
+  [frames] sandboxed iframe
+     bgtab-chrome-1.5: no tab opened
+     verlane-1.0: no tab opened
+  [frames] srcdoc iframe nested in an iframe
+     hedworth-chrome-0.1.1: no tab opened; native menu shown
+     bgtab-chrome-1.5: no tab opened; native menu shown
+     verlane-1.0: no tab opened; native menu shown
+  [mouse handling] held for 700ms before release
+     verlane-1.0: opened t/1.html*
+  [mouse handling] 3px hand jitter during click
+     bgtab-chrome-1.5: no tab opened
+     verlane-1.0: opened t/1.html*
+  [seen on real sites] hover card closes on press, another link underneath (Wikipedia-style preview)
+     hedworth-chrome-0.1.1: no tab opened
+     bgtab-chrome-1.5: opened t/2.html
+     verlane-1.0: opened t/2.html*
+  [seen on real sites] link inside a popover (top layer)
+     verlane-1.0: opened t/1.html*
+  [seen on real sites] link inside a <details> <summary>
+     verlane-1.0: opened t/1.html*
+  [should keep normal menu] link covered by an invisible overlay (consent/scrim)
+     bgtab-chrome-1.5: opened t/1.html; normal menu suppressed
+  [should keep normal menu] javascript: link
+     verlane-1.0: normal menu suppressed
+  [should keep normal menu] href="#"
+     hedworth-chrome-0.1.1: opened case/44.html#; normal menu suppressed
+     bgtab-chrome-1.5: opened case/44.html#; normal menu suppressed
+     verlane-1.0: opened case/44.html#*; normal menu suppressed
+  [should keep normal menu] data: link
+     bgtab-chrome-1.5: opened data:text/plain,hi; normal menu suppressed
+     verlane-1.0: opened data:text/plain,hi*; normal menu suppressed
+  [should keep normal menu] link inside a rich-text editor (contenteditable)
+     hedworth-chrome-0.1.1: opened t/1.html; normal menu suppressed
+     bgtab-chrome-1.5: opened t/1.html; normal menu suppressed
+     verlane-1.0: opened t/1.html*; normal menu suppressed
+  [should keep normal menu] right-drag 40px left (cancel)
+     verlane-1.0: opened t/1.html*
+  [should keep normal menu] right-drag 40px up (cancel)
+     verlane-1.0: opened t/1.html*
+  [should keep normal menu] right-drag 30px left, staying on a wide link (cancel)
+     verlane-1.0: opened t/1.html*
+  [should keep normal menu] right-drag 30px up, staying on a tall link (cancel)
+     verlane-1.0: opened t/1.html*
+  [should keep normal menu] right-drag 40px right (cancel)
+     verlane-1.0: opened t/1.html*
+  [false positives (site's own right-click)] <a href="#"> used as a button, with its own menu
+     hedworth-chrome-0.1.1: opened case/62.html#
+     bgtab-chrome-1.5: opened case/62.html#
+     verlane-1.0: opened case/62.html#*
+  [false positives (site's own right-click)] rich-text editor: link inside contenteditable with editor menu
+     hedworth-chrome-0.1.1: opened t/1.html
+     bgtab-chrome-1.5: opened t/1.html
+     verlane-1.0: opened t/1.html*
+  [false positives (site's own right-click)] page right-button handlers on a real link still receive mousedown/mouseup
+     bgtab-chrome-1.5: page never got mousedown,mouseup
+     verlane-1.0: opened t/1.html*
+
+TOTALS
+  mine: edge 69/69, ordering 13/13, perf 1198.7000000476837ms (no ext: 1199.3999999761581ms)
+  hedworth-chrome-0.1.1: edge 50/69, ordering 10/13, perf 1199.6000000238419ms (no ext: 1199.3999999761581ms)
+  bgtab-chrome-1.5: edge 41/69, ordering 5/13, perf 1199.2000000476837ms (no ext: 1199.3999999761581ms)
+  verlane-1.0: edge 16/69, ordering 0/13, perf 1200.7000000476837ms (no ext: 1199.3999999761581ms)
