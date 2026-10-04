@@ -11,7 +11,7 @@ for browser in firefox chrome; do
   cp src/common/options.html src/common/options.js src/common/icon-*.png "$out/"
   cp "src/platform/$browser.js" "$out/platform.js"
   for script in content background; do
-    cat "src/platform/$browser.js" "src/common/$script.js" > "$out/$script.js"
+    cat "src/platform/$browser.js" src/common/sites.js "src/common/$script.js" > "$out/$script.js"
   done
   cp "src/manifest.$browser.json" "$out/manifest.json"
   (cd "$out" && zip -qr "../right-click-new-tab-$browser.zip" .)

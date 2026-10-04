@@ -5,6 +5,9 @@
 const platform = {
   api: chrome,
 
+  // The toolbar button.
+  action: chrome.action,
+
   // Deepest node in open shadow roots; closed ones are retargeted to their
   // host and are looked into by the shared code via shadowRootOf().
   eventOrigin(event) {

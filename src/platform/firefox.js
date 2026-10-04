@@ -4,6 +4,9 @@
 const platform = {
   api: browser,
 
+  // The toolbar button.
+  action: browser.browserAction,
+
   // originalTarget is the node actually under the pointer, even inside closed
   // shadow roots, where event.target is retargeted to the host.
   eventOrigin(event) {

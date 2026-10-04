@@ -4,16 +4,23 @@ Right-clicking a link opens it in a new tab, placed exactly where a middle-click
 would have put it. Works in Firefox and Chromium browsers (Chrome, Edge, Brave,
 Opera, Vivaldi).
 
-- Shift+right-click (Firefox) or the keyboard menu key still gives the normal menu.
+- To get the normal menu on a link (Copy Link, Save Link As…), hold Shift, Ctrl,
+  Alt or Meta while right-clicking, or use the keyboard menu key. Works in both
+  browsers.
 - Only real links (`<a href>`, `<area href>`, SVG links) with an http(s) URL are
   handled. Buttons, `href="#"`, `javascript:` links, images and links in
   editable areas keep their normal right-click behaviour.
-- Options: open in foreground instead of background; sites to disable it on.
+- Toolbar button: turns it off for the current site, or back on. Tabs on a
+  disabled site show an "OFF" badge. Turning a site back on also removes a
+  parent-domain entry covering it (e.g. `google.com` for `docs.google.com`).
+- Options: open in foreground instead of background; the list of disabled sites
+  (the same list the toolbar button edits).
 
 ## Layout
 
 ```
-src/common/          shared code (content script, background, options page)
+src/common/          shared code (content script, background, options page,
+                     sites.js: disabled-site list, used by both scripts)
 src/platform/        per-browser dispatchers: firefox.js, chrome.js
 src/manifest.*.json  per-browser manifests (Firefox MV2, Chrome MV3)
 build.sh             builds dist/firefox, dist/chrome and their .zip packages
@@ -29,6 +36,7 @@ Browser differences live only in `src/platform/*.js`:
 | Tab groups | native | new tab joined to the source's group |
 | Closed shadow roots | `event.originalTarget`, `openOrClosedShadowRoot` | `chrome.dom.openOrClosedShadowRoot` |
 | Containers | `cookieStoreId` passed through | n/a |
+| Toolbar button | `browserAction` (MV2) | `action` (MV3) |
 
 ## Build
 
@@ -53,6 +61,8 @@ Browser differences live only in `src/platform/*.js`:
 cd test && python3 server.py &                     # local test pages on :8765
 python suite2.py mine                              # Firefox (Selenium); also: oracle, competitor names
 (cd chrome && node suite.mjs mine)                 # Chrome (Puppeteer)
+python toggle.py                                   # toolbar button, Firefox
+(cd chrome && node toggle.mjs)                     # toolbar button, Chrome
 python3 report2.py results mine ...                # Firefox report
 python3 report2.py chrome/results mine ...         # Chrome report
 (cd realsites && node run-chrome.mjs)              # real websites, Chrome (Playwright)

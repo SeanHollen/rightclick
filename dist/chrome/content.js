@@ -5,6 +5,9 @@
 const platform = {
   api: chrome,
 
+  // The toolbar button.
+  action: chrome.action,
+
   // Deepest node in open shadow roots; closed ones are retargeted to their
   // host and are looked into by the shared code via shadowRootOf().
   eventOrigin(event) {
@@ -44,6 +47,24 @@ const platform = {
 };
 'use strict';
 
+// The excluded-sites list: one host per line, each also covering its
+// subdomains. A leading "*." is accepted and ignored.
+function siteEntries(list) {
+  return list.split('\n')
+    .map(line => line.trim().toLowerCase().replace(/^\*\.?/, ''))
+    .filter(Boolean);
+}
+
+function siteEntryMatches(entry, host) {
+  host = host.toLowerCase();
+  return host === entry || host.endsWith('.' + entry);
+}
+
+function siteListMatches(list, host) {
+  return siteEntries(list).some(entry => siteEntryMatches(entry, host));
+}
+'use strict';
+
 (() => {
   const DRAG_TOLERANCE_PX = 6;
   const XLINK_NS = 'http://www.w3.org/1999/xlink';
@@ -56,24 +77,38 @@ const platform = {
   // started on a link we will handle.
   let pending = null;
 
-  function hostMatches(list) {
-    const host = location.hostname.toLowerCase();
-    return list.split('\n').some(line => {
-      const entry = line.trim().toLowerCase().replace(/^\*\.?/, '');
-      return entry && (host === entry || host.endsWith('.' + entry));
-    });
+  const isTopFrame = window === window.top;
+
+  // The toolbar button shows whether the extension is off for the site in
+  // the tab, which only the top frame's content script knows. Tabs start
+  // with no badge (= on), so only "off" and changes back to "on" are sent.
+  function showState(changed) {
+    if (!isTopFrame || !location.hostname || !(excluded || changed)) return;
+    platform.api.runtime.sendMessage({ type: 'site-state', host: location.hostname, excluded })
+      .catch(() => {});
   }
 
-  function applySettings(settings) {
-    excluded = hostMatches(settings.excludedSites || '');
+  function applySettings(settings, changed) {
+    const was = excluded;
+    excluded = siteListMatches(settings.excludedSites || '', location.hostname);
+    showState(changed && excluded !== was);
   }
 
-  platform.api.storage.local.get({ excludedSites: '' }).then(applySettings, () => {});
+  platform.api.storage.local.get({ excludedSites: '' }).then(settings => applySettings(settings, false), () => {});
   platform.api.storage.onChanged.addListener((changes, area) => {
     if (area === 'local' && changes.excludedSites) {
-      applySettings({ excludedSites: changes.excludedSites.newValue });
+      applySettings({ excludedSites: changes.excludedSites.newValue }, true);
     }
   });
+
+  // Asked by the toolbar button: which site is this tab on?
+  if (isTopFrame) {
+    platform.api.runtime.onMessage.addListener((message, sender, sendResponse) => {
+      if (!message || message.type !== 'get-site') return false;
+      sendResponse(location.hostname);
+      return false;
+    });
+  }
 
   function isPlainRightButton(event) {
     return event.button === 2 &&
